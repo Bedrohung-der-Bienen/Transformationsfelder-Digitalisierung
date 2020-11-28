@@ -1,7 +1,6 @@
 # Transformationsfelder-Digitalisierung
-Bedrohung der Bienen
 
-## Gruppe
+## Gruppe Bedrohung der Bienen
 Projekt Bedrohung der Bienen - Medieninformatik Master, Technische Hochschule Köln    
  _Decider: [Bouchra Allachi](https://github.com/Bouchra-Allachi)_ , _Documentory: [Ayse Erdur](https://github.com/Ayse-Erdur)_ , Scribbels: [Merve Tanriverdi](https://github.com/mervetv), [Linnéa Doberstein](https://github.com/Moosgloeckchen)  , _Facilitator: [Babak Mehrabipour](https://github.com/babakmehrabipour)_  ·
  
