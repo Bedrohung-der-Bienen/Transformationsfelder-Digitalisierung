@@ -15,4 +15,4 @@ Als Digitalisierung soll eine Anwendung entwickelt werden, die sich an alle rich
 Alternative könnten Bestäubungsmethoden entworfen werden, wie Beispielerweise ferngesteuerte Drohnen, die von Blüte zu Blüte fliegen. Da die Bienenpopulation an einigen Orten der Welt rapide zurückgehen.
 
 ## :blue_book: Dokumentation
-Die Dokumentation befindet sich im [:book:Wiki](http://github.com/Bedrohung-der-Bienen/Transformationsfelder-Digitalisierung/wiki).
+Die Dokumentation befindet sich im [:book:Wiki](https://github.com/Bedrohung-der-Bienen/Transformationsfelder-Digitalisierung/wiki/Dokumentation).
