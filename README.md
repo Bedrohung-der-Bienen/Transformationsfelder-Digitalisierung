@@ -19,3 +19,4 @@ Alternative könnten Bestäubungsmethoden entworfen werden, wie Beispielerweise 
 
 ## :blue_book: Dokumentation
 Die Dokumentation befindet sich im [:book:Wiki](https://github.com/Bedrohung-der-Bienen/Transformationsfelder-Digitalisierung/wiki).
+Unser Miro befindet sich im [https://miro.com/app/board/o9J_kgtkRCU=/).
