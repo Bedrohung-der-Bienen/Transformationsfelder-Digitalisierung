@@ -1,12 +1,12 @@
 # Transformationsfelder-Digitalisierung
 
 ## Projekt Bedrohung der Bienen- Medieninformatik Master, Technische Hochschule Köln  
- _Decider: [Bouchra Allachi](https://github.com/Bouchra-Allachi)_ , \
- _Documentory: [Ayse Erdur](https://github.com/Ayse-Erdur)_ , \
- _Scribbels: [Merve Tanriverdi](https://github.com/mervetv)_, _[Linnéa Doberstein](https://github.com/Moosgloeckchen)_, \
+ _Decider: [Bouchra Allachi](https://github.com/Bouchra-Allachi)_ \
+ _Documentory: [Ayse Erdur](https://github.com/Ayse-Erdur)_ \
+ _Scribbels: [Merve Tanriverdi](https://github.com/mervetv)_, _[Linnéa Doberstein](https://github.com/Moosgloeckchen)_ \
  _Facilitator: [Babak Mehrabipour](https://github.com/babakmehrabipour)_ 
  
- Unser Miro Board befindet sich im [https://miro.com/app/board/o9J_kgtkRCU=/).
+ Unser Miro Board befindet sich unter [https://miro.com/app/board/o9J_kgtkRCU=/].
  
 # Einführung 
 Der Schutz und der Erhalt von Artenvielfalt und Biodiversität sind zentrale Zukunftsaufgaben. Sowohl Honigbienen als auch Wildbienen sind für fast alle Ökosysteme unersetzlich. Denn sie tragen einen unverzichtbaren Beitrag für den Erhalt der Biologischen Vielfalt. Da sie für die Bestäubung eines großen Teils der Pflanzen und somit für die Reichhaltigkeit der Nahrungskette sorgen, nämlich 80% unserer Nutz- und Wildpflanzen müssen bestäubt werden. Der monetäre Wert der Insekten- Bestäubung beträgt in Europa über 14 Milliarden Euro pro Jahr. Es gibt in Deutschland über 550 verschiedene Wildbienenarten. Die Bienen brauchen ein geeignete Nistmöglichkeiten sowie Material für den Nestbau. Zusätzlich ein ausreichendes Blütenangebot. Durch das Schwinden des Lebensraums und Nahrung sind diese wie auch weitere Insekten vom Aussterben bedroht. Das Bundesministerium für Ernährung und Landwirtschaft (BMEL) setzt sich deshalb für deren Schutz ein. Denn das Bienensterben führt zum Verlust der Artenvielfalt. 
