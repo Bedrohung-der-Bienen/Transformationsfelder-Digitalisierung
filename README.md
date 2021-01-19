@@ -1,7 +1,10 @@
 # Transformationsfelder-Digitalisierung
 
 ## Projekt Bedrohung der Bienen- Medieninformatik Master, Technische Hochschule Köln  
- _Decider: [Bouchra Allachi](https://github.com/Bouchra-Allachi)_ , _Documentory: [Ayse Erdur](https://github.com/Ayse-Erdur)_ , Scribbels: [Merve Tanriverdi](https://github.com/mervetv), [Linnéa Doberstein](https://github.com/Moosgloeckchen)  , _Facilitator: [Babak Mehrabipour](https://github.com/babakmehrabipour)_  ·
+ _Decider: [Bouchra Allachi](https://github.com/Bouchra-Allachi)_ , \
+ _Documentory: [Ayse Erdur](https://github.com/Ayse-Erdur)_ , \
+ _Scribbels: [Merve Tanriverdi](https://github.com/mervetv)_, _[Linnéa Doberstein](https://github.com/Moosgloeckchen)_, \
+ _Facilitator: [Babak Mehrabipour](https://github.com/babakmehrabipour)_ 
  
  Unser Miro Board befindet sich im [https://miro.com/app/board/o9J_kgtkRCU=/).
  
