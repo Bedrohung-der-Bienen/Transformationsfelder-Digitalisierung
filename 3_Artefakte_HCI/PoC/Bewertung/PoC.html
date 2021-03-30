@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PoC - Bewertung</title>
+    <style>
+        .overflow-hidden {
+            overflow: hidden;
+        }
+        body {
+            font-size: 35px;
+            font-family: sans-serif;
+        }
+        .rate-base-layer {
+            color: #aaa;
+        }
+        .rate-hover-layer {
+            color: orange;
+        }
+        #rate5 .rate-base-layer span, #rate7 .rate-base-layer span {
+            opacity: 0.5;
+        }
+        hr {
+            border: 1px solid #ccc;
+        }
+        p {
+            font-size: 15px;
+        }
+    </style>
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js" charset="utf-8"></script>
+    <script src="./rater.js" charset="utf-8"></script>
+</head>
+<body>
+    <div>
+        <div>
+            <h3>PoC - Pflanze bewerten</h3>
+            <p>Für die Bewertung der Pflanzen soll das Package <a href="https://auxiliary.github.io/rater/">Rater.js</a> genutzt werden.</p>
+            <p>Mit der Klasse <strong>rating</strong> im html div Container und dem aufruf <strong>$(".rating").rate(options);</strong> wird die Sterne Bewertung angezeigt.</p>
+            <p>In den <strong>options</strong> können die Sterne individualisiert werden. Mit weiteren Funktionen wie <strong>$(".rating").rate("getValue");</strong>
+               und <strong>$(".rating").rate("setValue");</strong> kann der zuvor berechnete Mittelwert mit der neuen Bewertungsabgabe angezeigt werden.</p>
+        </div>
+        <div>
+            <p>Beispiel:</p>
+            <div class="rating" data-rate-value=6></div>
+        </div>
+    </div>
+    
+    <script>
+        var options = {
+                max_value: 5,
+                step_size: 1,
+            }
+        $(".rating").rate(options);
+        $(".rating").rate("setValue", 4);
+    </script>
+</body>
+</html>
