@@ -1,3 +1,24 @@
+
+.overflow-hidden {
+    overflow: hidden;
+}
+body {
+    font-size: 35px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main {
+    max-width: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p {
+    font-size: 15px;
+}
+
 .InputContainer {
     display: flex;
     flex-direction: column;
