@@ -9,53 +9,18 @@ document.addEventListener("DOMContentLoaded", function() {
     
     for (var i=0; i<input.length; i++){
         $(document).on('click','input',function(e){
-            console.log(e)
             if (bookmarked.some(plant => plant.name === e.target.id)){
-                removePlantToBookmarked(e);
+                removePlantFromBookmarked(e);
             } else if (bookmarked.some(plant => plant.name === e.target.name)) {
-                console.log('remove from bookmarks')
+                removePlantFromBookmarkedSelf(e);
             } else {
                 addPlantToBookmarked(e);
             }
-
-            console.log(bookmarked)
-        })
-
-        // input[i].addEventListener("click", function(e) {
-        //     if (bookmarked.some(plant => plant.name === e.target.id)){
-        //         removePlantToBookmarked(e);
-        //     } else if (bookmarked.some(plant => plant.name === e.target.id)) {
-        //         console.log('test')
-        //     } else {
-        //         addPlantToBookmarked(e);
-        //     }
-
-        //     console.log(bookmarked)
-        // });
-        
+        })        
     }
-
-    
-    // .addEventListener("click", function(e) {
-    //     console.log(e.target)
-    //     /*plants.push({
-    //         user: 'Erbse',
-    //         datetime: datetime,
-    //         content: document.getElementById("input").value
-    //     })
-
-    //     var paras = document.getElementsByClassName('commentary');
-    //     while(paras[0]) {
-    //         paras[0].parentNode.removeChild(paras[0]);
-    //     }
-
-    //     getComment();
-    //     document.getElementById("input").value = ''*/
-    // });
 })
 
 const addPlantToBookmarked = function(e) {
-    console.log(e.target)
     plants.forEach((plant) => {                
         if (e.target.id === plant.name) {
             bookmarked.push(plant)
@@ -65,14 +30,19 @@ const addPlantToBookmarked = function(e) {
     getBookmarkedPlants();
 }
 
-const removePlantToBookmarked = function(e) {
-    console.log('remove',e.target.id)
+const removePlantFromBookmarked = function(e) {
     var filtered = bookmarked.filter(function(plant) { return plant.name != e.target.id; }); 
     bookmarked = filtered;
     e.target.src = "img/bookmark-white.png";
     getBookmarkedPlants();
 }
 
+const removePlantFromBookmarkedSelf = function(e) {
+    var filtered = bookmarked.filter(function(plant) { return plant.name != e.target.name; }); 
+    bookmarked = filtered;
+    document.getElementById(e.target.name).src = "img/bookmark-white.png";
+    getBookmarkedPlants();
+}
 
 const getPlantsForCatalog = function() {
     plants.forEach((plant) => {
