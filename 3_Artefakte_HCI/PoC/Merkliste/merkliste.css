@@ -1,0 +1,82 @@
+.overflow-hidden {
+    overflow: hidden;
+}
+
+body {
+    font-size: 35px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    max-width: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    font-size: 15px;
+}
+
+.Lists {
+    display: flex;
+}
+
+.PlantsContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    width: 400px;
+}
+
+.Plants {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+}
+
+.BookmarkContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    width: 400px;
+}
+
+h5 {
+    font-size: 1.5rem;
+}
+
+span {
+    font-size: 15px;
+    padding: 0 0.5rem 0 0;
+}
+
+.Plant {
+    display: flex;
+    border: 2px solid black;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.5rem;
+}
+
+.PlantInfo {
+    display: flex;
+    border-left: 2px solid grey;
+    padding-left: 1rem;
+    align-items: center;
+}
+
+.PlantName {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-weight: bold;
+}
+
+.bookmarkIcon {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    cursor: pointer;
+}
