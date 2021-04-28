@@ -1,0 +1,60 @@
+
+.overflow-hidden {
+    overflow: hidden;
+}
+body {
+    font-size: 35px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main {
+    max-width: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p {
+    font-size: 15px;
+}
+
+.InputContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.CommentsHeader, .CommentsHeaderRight {
+    display: flex;
+    align-items: center;
+}
+
+.InputLabel {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+h5 {
+    font-size: 1.5rem;
+}
+
+.Comment {
+    border: 1px solid grey;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    font-size: 1rem;
+}
+
+hr {
+    margin-top: 0px;
+}
+
+span {
+    font-size: 15px;
+    padding: 0 0.5rem 0 0.5rem;
+}
+
+.commentary {
+    border: 1px solid grey;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin-top: 1rem;
+}

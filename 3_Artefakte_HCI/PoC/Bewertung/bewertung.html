@@ -29,7 +29,7 @@
             font-size: 15px;
         }
     </style>
-    <script src="http://code.jquery.com/jquery-1.11.3.min.js" charset="utf-8"></script>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js" charset="utf-8"></script>
     <script src="./rater.js" charset="utf-8"></script>
 </head>
 <body>
@@ -40,9 +40,10 @@
             <p>Mit der Klasse <strong>rating</strong> im html div Container und dem aufruf <strong>$(".rating").rate(options);</strong> wird die Sterne Bewertung angezeigt.</p>
             <p>In den <strong>options</strong> können die Sterne individualisiert werden. Mit weiteren Funktionen wie <strong>$(".rating").rate("getValue");</strong>
                und <strong>$(".rating").rate("setValue");</strong> kann der zuvor berechnete Mittelwert mit der neuen Bewertungsabgabe angezeigt werden.</p>
+            <p>Da dies lediglich einen Prototypen darstellt, wird hier kein Mittelwert berechnet. Es können lediglich Bewertungen abgegeben werden, welche dann angezeigt werden.</p>
         </div>
         <div>
-            <p>Beispiel:</p>
+            <h4>Prototyp:</h4>
             <div class="rating" data-rate-value=6></div>
         </div>
     </div>
