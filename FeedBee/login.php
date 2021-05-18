@@ -1,6 +1,7 @@
 <?php
 session_start();
 include("connection.php");
+include("header.php");
 if($_POST){
 	$query = "SELECT `Email` FROM `user` WHERE `Email` = '".$_POST["email"]."' AND `Passwort` = '".$_POST["password"]."'" ;
 	$resultat = mysqli_query($link,$query);
