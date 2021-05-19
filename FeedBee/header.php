@@ -7,6 +7,7 @@
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
         
         <!-- Custom CSS -->
         <link rel="stylesheet" type="text/css" href="css/projekt.css">
