@@ -1,7 +1,7 @@
 <?php
 session_start();
 include("connection.php");
-include("header.php");
+
 if($_POST){
 	$query = "SELECT `Email` FROM `user` WHERE `Email` = '".$_POST["email"]."' AND `Passwort` = '".$_POST["password"]."'" ;
 	$resultat = mysqli_query($link,$query);
@@ -17,7 +17,10 @@ if($_POST){
 <!doctype html>
 <html lang="de">
     <head>
-        <title>Anmelden</title>
+		<title>Anmelden</title>
+		<?php include("header.php");?>
+        
+		
     </head>
     <body>
       
@@ -55,6 +58,7 @@ if($_POST){
 	</center>
 		</br>
 
- 	 <?php include ("footer.php");?>
+
     </body>
+ 	 <?php include ("footer.php");?>
 </html>

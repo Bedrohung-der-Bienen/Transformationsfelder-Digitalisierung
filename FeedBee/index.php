@@ -1,7 +1,11 @@
 
 <!doctype html>
 <html lang="de">
-<?php include ("header.php"); ?>
+	<head>
+		<title>Startseite</title>
+		<?php include ("header.php"); ?>
+	</head>
+	<body>
         <!-- Testimonials -->
         <div style="background-color: rgb(231, 225, 225);" id="testimonials">
             <!-- Content Container -->
@@ -77,6 +81,7 @@
                 </div>
             </div> <!-- Ende Container -->
         </div> <!-- Ende Features -->
+ 
     </body>
-        <?php include ("footer.php"); ?>
+	 <?php include ("footer.php"); ?>
 </html>

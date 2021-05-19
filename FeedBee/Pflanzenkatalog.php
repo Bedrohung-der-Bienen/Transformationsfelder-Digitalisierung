@@ -1,8 +1,13 @@
 <!doctype html>
 <html lang="de">
-<?php include ("header.php");?>
-        <h1>Hier kommt Pflanzenkatalog</h1> 
+    <head>
+		<title>Pflanzenkatalog</title>
+		<?php include("header.php"); ?>
+		
+	</head>
+	<body>
+        
+        <h1>Hier kommt Pflanzenkatalog</h1>
     </body>
-
-<?php include ("footer.php");?>
+	<?php include ("footer.php"); ?>
 </html>

@@ -1,9 +1,11 @@
 <!doctype html>
 <html lang="de"
-<?php include("header.php"); ?>
-
-      
-    Schutz der Bienen & Bedrohung -->
+  <head>
+		<title>Bienenwissen</title>
+		<?php include("header.php"); ?>
+	</head>
+	<body>   
+     <!-- Schutz der Bienen & Bedrohung -->
         <div class="jumbotron-fluid align-items-center" id="header">
             <div class="container">
                 <h1 class="display-5 text-center mt-5 mb-3">Schutz der Bienen</h1>
@@ -130,8 +132,7 @@
                         </div>
                     </div> <!-- Ende Container -->
                 </div> <!-- Ende Erstaunliche Fakten über Bienen -->
-    
-</body>
-<?php include ("footer.php");?>
 
+</body>
+    <?php include ("footer.php");?>
 </html>

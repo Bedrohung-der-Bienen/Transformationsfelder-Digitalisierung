@@ -3,9 +3,7 @@
 
 
 	include ("connection.php");
-	include ("header.php");
 	
-
 	if($_POST){
 		
 		if ($_POST['email'] != "" && $_POST['password'] != "" && $_POST['nname'] != "" && $_POST['vname'] != "" && $_POST['bname'] != ""){
@@ -37,7 +35,11 @@
 ?>
 <!doctype html>
 <html lang="de">
-    <head>
+	<head>
+		<title>Registrieren</title>
+			<?php include ("header.php"); ?>
+	</head>
+	<body>
          <div class="container" id="login">
 		  <form  method="post">
 				<div class="form-group">
@@ -56,7 +58,6 @@
 		<center>
 			<a href="login.php">anmelden?</a>
 		</center>
-
-	    <?php include ("footer.php");?>
     </body>
+	  <?php include ("footer.php");?>
 </html>

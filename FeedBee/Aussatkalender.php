@@ -1,10 +1,12 @@
 <!doctype html>
 <html lang="de">
-<?php include("header.php"); ?>
     <head>
+		<title>Aussatkalender</title>
+		<?php include("header.php"); ?>
+	</head>
+	<body>
         
         <h1>Hier kommt Aussatkalender</h1>
-     
     </body>
-    <?php include ("footer.php"); ?>
+	<?php include ("footer.php"); ?>
 </html>
