@@ -4,7 +4,7 @@
     <head>
         
         <h1>Hier kommt Aussatkalender</h1>
-        
-<?php include ("footer.php"); ?>
+     
     </body>
+    <?php include ("footer.php"); ?>
 </html>
