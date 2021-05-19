@@ -130,8 +130,8 @@
                         </div>
                     </div> <!-- Ende Container -->
                 </div> <!-- Ende Erstaunliche Fakten über Bienen -->
-     
-    <?php include ("footer.php");?>
+    
 </body>
+<?php include ("footer.php");?>
 
 </html>
