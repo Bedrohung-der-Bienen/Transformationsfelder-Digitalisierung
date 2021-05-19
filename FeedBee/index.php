@@ -77,7 +77,6 @@
                 </div>
             </div> <!-- Ende Container -->
         </div> <!-- Ende Features -->
-        
-        <?php include ("footer.php"); ?>
     </body>
+        <?php include ("footer.php"); ?>
 </html>
