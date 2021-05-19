@@ -130,11 +130,7 @@
                         </div>
                     </div> <!-- Ende Container -->
                 </div> <!-- Ende Erstaunliche Fakten über Bienen -->
-        <!-- Optionales JavaScript -->
-        <!-- jQuery, dann Popper.js, dann Bootstrap JS -->
-        <script src="js/jquery-3.3.1.slim.min.js"></script>
-        <script src="js/popper.js"></script>
-        <script src="js/bootstrap.min.js"></script>
+     
     <?php include ("footer.php");?>
 </body>
 
