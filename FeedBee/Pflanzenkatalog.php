@@ -5,8 +5,8 @@
 		<?php include("header.php"); ?>
 		
 	</head>
+	
 	<body class="bg-light">
-
         <!-- Inhalt -->  
         <div class="container">
             <form class="mt-5 mb-1">
