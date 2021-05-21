@@ -3,42 +3,123 @@
 <?php include ("header.php"); ?>
 
     <body>
-            <!-- Content Container -->
-            <div class="container">
-                <h3 class="text-center display-6 mb-5"> Thymian</h3>
-                <div class="container">
-                <ul class="nav nav-pills border-secondary" role="tablist">
-                    <div class="nav-item col">
-                        <a class="nav-link active bg-light text-dark" data-toggle="pill" href="#beschreibung">Beschreibung</a>
+            
+                    <div class="container">
+                                        <div class="offset-4 mb-3">
+                                                <div class="row mt-5 mb-1">
+                                                    <div class="col-md-2 ml-7">
+                                                    <img src="img/Thymian2.jpg" width="100" height="100" alt="...">
+                                                    </div>
+                                                    <div class="col-md-8">
+                                                        <div class="card-body mr-5">
+                                                        <h3 class="card-title">Thymian <a href="#" data-abc="true"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmark" viewBox="0 0 16 16">
+                                                        <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                                                        </svg></a></h3>
+                                                    </div>
+                                                </div>
+                                        
+                                            </div>
                     </div>
-                    
-                    <div class="nav-item col">
-                        <a class="nav-link bg-light text-dark" data-toggle="pill" href="#steckbrief">Steckbrief</a>
-                    </div>
-                    
-                    <div class="nav-item col">
-                        <a class="nav-link bg-light text-dark" data-toggle="pill" href="#kommentar">Kommentare</a>
-                    </div>
+                   
                 
-                </ul>
-                </div>
-                
-                 <div class="tab-content">
-                    <div id="beschreibung" class="container tab-pane active"><br>
-                        <p> Hier kommt die Beschreibung</p>
+                        <ul class="nav nav-pills border-secondary mb-2" role="tablist">
+                                
+                                <li class="nav-item col">
+                                    <a class="nav-link active bg-light text-dark" id="beschreibung" data-toggle="pill" href="#beschreibung" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                                    </svg> Beschreibung</a>
+                                </li>
+                                
+                                <li class="nav-item col">
+                                    <a class="nav-link bg-light text-dark" data-toggle="pill" href="#steckbrief"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                                    <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
+                                    </svg> Steckbrief</a>
+                                </li>
+                            
 
+                                <li class="nav-item col">
+                                    <a class="nav-link bg-light text-dark" id= "kommentare" data-toggle="pill" href="#kommentar">  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-left-fill" viewBox="0 -1 16 16">
+                                    <path d="M2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                                    </svg> Kommentare</a>
+                                </li>
+                            
+                            
+                        </ul>
+                            
+                            
+                        
+                            
+                
+                    <div class="tab-content">
+                        <div id="beschreibung" class="tab-pane show active"><br>
+
+                            <div style="background-color: rgb(240,240,240);" id="testimonials">
+                                <!-- Content Container -->
+                                <div class="container py-5">
+                                    <div id="carouselTestimonials" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner my-3">
+                                        <div class="carousel-item active">
+                                            <div class="testimonial text-center">
+                                                <img src="img/Thymian2.jpg" class="img-fluid img-testimonial mx-auto d-block mb-3 box-shadow" width= 150 height= 150 alt="testimonial-eins">
+
+
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="testimonial text-center">
+                                                <img src="img/Tymian1.jpg" class="img-fluid img-testimonial mx-auto d-block mb-3 box-shadow" width= 265 height= 200 alt="testimonial-zwei">
+                                            
+
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="testimonial text-center">
+                                                <img src="img/thymian3.jpg" class="img-fluid img-testimonial mx-auto d-block mb-3 box-shadow" width= 265 height= 200 alt="testimonial-drei">
+                                            
+                                            </div>
+                                        </div>
+                                    </div>
+                                        <a class="carousel-control-prev" href="#carouselTestimonials" role="button" data-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Vorheriges</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#carouselTestimonials" role="button" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Nächstes</span>
+                                        </a>
+
+                                    </div>
+
+                                </div><!-- Ende Container -->
+                            </div> <!-- Ende Testimonials -->
+
+                            <div class="card mb-5">
+                                <div class="card-body">
+                                Der Echte Thymian kann eine Höhe von 10 bis 40 Zentimetern erreichen. Ab Mai bis in den Herbst hinein öffnet er kleine rosa bis lilafarbene  Blüten,  welche von Wildbienen gerne als Nahrungsquelle angenommen  werden. Der Echte Thymian gehört zu den bekanntesten mediterranen Küchenkräutern. Außerdem ist die Staude aus  der Familie der Lippenblütler eine wertvolle und sehr  vielseitig einsetzbare Heilpflanze.  Das ursprüngliche Verbreitungsgebiet des Echten Thymians reicht vom  westlichen Mittelmeerraum bis nach Süditalien – seit dem Mittelalter ist  er aber auch fester Bestandteil der hiesigen Klostergärten und heute aus kaum einem Hausgarten mehr wegzudenken.
+                                <br>
+                                <br>
+                                Anleitung:
+                                Echter Thymian wird im Topf angeboten und kann im späten Frühjahr ins Beet gepflanzt werden. Halten Sie einen Pflanzabstand von  20 bis 25 Zentimeter ein, auf einen Quadratmeter Fläche kommen etwa 16  Pflanzen.
+                                </br>
+                                <br>
+                                Pflege:
+                                Als mediterranes Gewächs ist Thymus an Trockenheit und karge Böden gewöhnt – Pflege braucht er kaum. Im Beet kann man alle  paar Jahre etwas Kompost ausbringen. 
+                                Gießen ist, vorausgesetzt die Pflanze ist gut angewachsen, eigentlich nur im Topf nötig. Jährlich im Frühjahr schneidet man beim Thymian die Triebe um etwa ein Drittel zurück. So vergreist der  Echte Thymian nicht und treibt Jahr für Jahr kräftig aus. Auch um einen  Winterschutz müssen Sie sich keine Gedanken machen, Thymus vulgaris ist  absolut frosthart. Einzig Kübelpflanzen sollten während des Winters nah  an die Hauswand gestellt werden, da sie winterliche Nässe nicht  besonders gut vertragen.
+                                </br>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div id="steckbrief" class="tab-pane fade"><br>
+                            <p>Steckbrieef</p>
+                        </div>
+                        
+                        <div id="kommentar" class="tab-pane fade"><br>
+                            <p>Kommis</p>
+                        </div>
                     </div>
                     
-                     <div id="steckbrief" class="container tab-pane fade"><br>
-                        <p>Ut enim ad minim veniam, quis nostrud    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
-                    
-                     <div id="kommentar" class="container tab-pane fade"><br>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-                    </div>
-                     
-                </div>
-        </div>
+            
     
     </body>
      <?php include ("footer.php"); ?>
