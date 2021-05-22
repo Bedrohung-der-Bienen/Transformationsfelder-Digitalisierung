@@ -51,7 +51,7 @@
                             
                 
                     <div class="tab-content">
-                        <div id="beschreibung" class="tab-pane show active"><br>
+                        <div id="beschreibung" class="tab-pane active"><br>
 
                             <div style="background-color: rgb(240,240,240);" id="testimonials">
                                 <!-- Content Container -->
@@ -110,9 +110,79 @@
                             </div>
                         </div>
                         
+                        
                         <div id="steckbrief" class="tab-pane fade"><br>
-                            <p>Steckbrieef</p>
+                
+                            <div class="list-group d-flex flex-row flex-wrap ml-5 mb-5">
+                                <li class="list-group-item col-md-3 list-group-item">
+                                Aussaat
+                                </li>
+                                <li class="list-group-item col-md-8 list-group-item">
+                                ab März auf Fensterbank und im Gashaus, ab Mai direkt ins Beet oder in den Topf
+                                </li>
+                                <li class="list-group-item col-md-3 list-group-item">
+                                Blütezeit
+                                </li>
+                                <li class="list-group-item col-md-8 list-group-item">
+                                Mai - Oktober
+                                </li>
+                                <li class="list-group-item col-md-3 list-group-item">
+                                Größe
+                                </li>
+                                <li class="list-group-item col-md-8 list-group-item">
+                                10cm - 40cm
+                                </li>
+                                <li class="list-group-item col-md-3 list-group-item">
+                                Bodenfeuchte
+                                </li>
+                                <li class="list-group-item col-md-8 list-group-item">
+                                trocken bis mäßig trocken
+                                </li>
+                                <li class="list-group-item col-md-3 list-group-item">
+                                Gießvorgang
+                                </li>
+                                <li class="list-group-item col-md-8 list-group-item">
+                                1-mal in der Woche
+                                </li>
+                                <li class="list-group-item col-md-3 list-group-item">
+                                Verwendung
+                                </li>
+                                <li class="list-group-item col-md-8 list-group-item">
+                                Balkon, Garten
+                                </li>
+                                <li class="list-group-item col-md-3 list-group-item">
+                                Bodenart
+                                </li>
+                                <li class="list-group-item col-md-8 list-group-item">
+                                kiesig bis lehmig
+                                </li>
+                                <li class="list-group-item col-md-3 list-group-item">
+                                Licht
+                                </li>
+                                <li class="list-group-item col-md-8 list-group-item">
+                                sonne
+                                </li>
+                                <li class="list-group-item col-md-3 list-group-item">
+                                Winterhärte
+                                </li>
+                                <li class="list-group-item col-md-8 list-group-item">
+                                winterhart
+                                </li>
+                                <li class="list-group-item col-md-3 list-group-item">
+                                Blattfarbe
+                                </li>
+                                <li class="list-group-item col-md-8 list-group-item">
+                                grün
+                                </li>
+                                <li class="list-group-item col-md-3 list-group-item">
+                                Blütenfarbe
+                                </li>
+                                <li class="list-group-item col-md-8 list-group-item">
+                                Scheinquirle
+                                </li>
+                            </div>
                         </div>
+                        
                         
                         <div id="kommentar" class="tab-pane fade"><br>
                             <p>Kommis</p>
