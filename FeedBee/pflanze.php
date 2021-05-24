@@ -3,26 +3,37 @@
 <?php include ("header.php"); ?>
 
     <body>
-            
+    
                     <div class="container">
-                                        <div class="offset-4 mb-3">
-                                                <div class="row mt-5 mb-1">
-                                                    <div class="col-md-2 ml-7">
-                                                    <img src="img/Thymian2.jpg" width="100" height="100" alt="...">
-                                                    </div>
-                                                    <div class="col-md-8">
-                                                        <div class="card-body mr-5">
-                                                        <h3 class="card-title">Thymian <a href="#" data-abc="true"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmark" viewBox="0 0 16 16">
-                                                        <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
-                                                        </svg></a></h3>
-                                                    </div>
-                                                </div>
                                         
-                                            </div>
+                        
+                            <div class="container">
+                            <button class="btn btn-link" style="color: rgb(0, 0, 0)"><i class="fas fa-arrow-left mr-2"></i> Zurück</i></button>
+
+                            </div>
+                            
+                            <div class="offset-4 mb-3">
+                                            
+                                <div class="row mb-1">
+                                                            
+                                    <div class="col-md-2 ml-7">
+                                        <img src="img/Thymian2.jpg" width="100" height="100" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body mr-5">
+                                        <h3 class="card-title">Thymian <a href="#" data-abc="true"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmark" viewBox="0 0 16 16">
+                                        <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                                        </svg></a></h3>
+                                                            
+                                        </div>
+                                    </div>           
+                                        
+                            </div>
+                                     
                     </div>
                    
                 
-                        <ul class="nav nav-pills border-secondary mb-2" role="tablist">
+                    <ul class="nav nav-pills border-secondary mb-2" role="tablist">
                                 
                                 <li class="nav-item col">
                                     <a class="nav-link active bg-light text-dark" data-toggle="pill" href="#beschreibung" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
@@ -44,16 +55,16 @@
                                 </li>
                             
                             
-                        </ul>
+                    </ul>
                             
                             
                         
                             
                 
                     <div class="tab-content">
-                        <div id="beschreibung" class="tab-pane fade"><br>
+                        <div id="beschreibung" class="tab-pane active"><br>
 
-                            <div style="background-color: rgb(240,240,240);" id="testimonials">
+                            <div> <!-- style="background-color: rgb(240,240,240);" id="testimonials" -->
                                 <!-- Content Container -->
                                 <div class="container py-5">
                                     <div id="carouselTestimonials" class="carousel slide" data-ride="carousel">
@@ -78,8 +89,17 @@
                                             
                                             </div>
                                         </div>
+                                        <style>
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+</style>
                                     </div>
-                                        <a class="carousel-control-prev" href="#carouselTestimonials" role="button" data-slide="prev">
+                                        <a class="carousel-control-prev" href="#carouselTestimonials" role="button" data-slide="prev" >
                                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                             <span class="sr-only">Vorheriges</span>
                                         </a>
@@ -184,7 +204,7 @@
                         </div>
                         
                         
-                        <div id="kommentar" class="tab-pane active"><br>                   
+                        <div id="kommentar" class="tab-pane fade"><br>                   
                         
                             <div style="font-size: 80%;">
                                 <div class="container">
@@ -225,7 +245,7 @@
                                         </div>    
                                 </div>
                             </div>   
-                        </div>
+                    </div>
                     
             
     
