@@ -51,7 +51,7 @@
                             
                 
                     <div class="tab-content">
-                        <div id="beschreibung" class="tab-pane active"><br>
+                        <div id="beschreibung" class="tab-pane fade"><br>
 
                             <div style="background-color: rgb(240,240,240);" id="testimonials">
                                 <!-- Content Container -->
@@ -184,10 +184,48 @@
                         </div>
                         
                         
-                        <div id="kommentar" class="tab-pane fade"><br>
-                            <p>Kommis</p>
+                        <div id="kommentar" class="tab-pane active"><br>                   
+                        
+                            <div style="font-size: 80%;">
+                                <div class="container">
+                                    
+                                        <div class="card offset-3 w-50 mb-4" style= "width: 18rem;">
+                                            <div class="card-body">
+                                            <h6 class="card-title">Pflege</h6>
+                                            leicht <input type="range" class="custom-range w-50 ml-3 mb-4" min="0" max="5" id="customRange2"> schwer <br>
+                                            </div>
+                                        </div>
+                                    
+                                        <div class="card offset-3 w-50 mb-4" style= "width: 18rem;">
+                                            <div class="card-body">
+                                            <h6 class="card-titel">Geruch</h6>
+                                            schön <input type="range" class="custom-range w-50 ml-3 mb-4" min="0" max="5" id="customRange2"> unschön <br>
+                                            </div>
+                                        </div>
+
+                                        <div class="card offset-3 w-50 mb-4" style= "width: 18rem;">
+                                            <div class="card-body">     
+                                            <h6 class="card-titel">Ästethik</h6>
+                                            schön <input type="range" class="custom-range w-50 ml-3 mb-4" min="0" max="5" id="customRange2"> unschön <br>
+                                            </div>
+                                        </div>
+
+                                        <div class="card offset-3 w-50 mb-4" style= "width: 18rem;">
+                                            <div class="card-body">
+                                            <h6 class="card-titel">Licht</h6>
+                                            wenig <input type="range" class="custom-range w-50 ml-3 mb-4" min="0" max="5" id="customRange2"> viel <br>
+                                            </div>
+                                        </div>
+
+                                        <div class="card offset-3 w-50 mb-4" style= "width: 18rem;">
+                                            <div class="card-body">
+                                            <h6 class="card-titel">Anlockung</h6>
+                                                hoch <input type="range" class="custom-range w-50 ml-3 mb-4" min="0" max="5" id="customRange2"> niedrig <br>
+                                            </div>
+                                        </div>    
+                                </div>
+                            </div>   
                         </div>
-                    </div>
                     
             
     
