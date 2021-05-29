@@ -7,17 +7,12 @@
     <body>
     
 
-
-
-                         
-                                    
-                
                     <div class="container">
                                         
                         
                             
                         <div class="container">
-                                <button class="btn btn-link" style="color: rgb(0, 0, 0)"><i class="fas fa-arrow-left mr-2"></i> Zurück</i></button>
+                                <button class="btn btn-link" style="color: rgb(0, 0, 0)"><i class="fas fa-arrow-left mr-2"></i> Zurück</button>
                         </div>
                                 <div class="row">
                                     <div class="col-md">
@@ -61,7 +56,7 @@
                                 <div> <!-- style="background-color: rgb(240,240,240);" id="testimonials" -->
                                     <!-- Content Container -->
                                     <div class="container py-5">
-                                        <div id="carouselTestimonials" class="carousel slide" data-ride="carousel">
+                                        <div id="carouselTestimonials" class="carousel slide" data-ride="carousel pause">
                                         <div class="carousel-inner my-3">
                                             <div class="carousel-item active">
                                                 <div class="testimonial text-center">
