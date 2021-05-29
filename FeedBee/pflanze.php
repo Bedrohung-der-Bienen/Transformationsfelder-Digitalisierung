@@ -1,7 +1,9 @@
 <!doctype html>
 <html lang="de">
 <?php include ("header.php"); ?>
-
+    <head> 
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
     <body>
     
                     <div class="container">
@@ -35,20 +37,20 @@
                 
                     <ul class="nav nav-pills border-secondary mb-2" role="tablist">
                                 
-                                <li class="nav-item col">
+                                <li class="nav-item col-md">
                                     <a class="nav-link active bg-light text-dark" data-toggle="pill" href="#beschreibung" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
                                     </svg> Beschreibung</a>
                                 </li>
                                 
-                                <li class="nav-item col">
-                                    <a class="nav-link bg-light text-dark" data-toggle="pill" href="#steckbrief"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                                <li class="nav-item col-md">
+                                    <a class="nav-link bg-light text-dark" data-toggle="pill" href="#steckbrief"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 -1 16 16">
                                     <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
                                     </svg> Steckbrief</a>
                                 </li>
                             
 
-                                <li class="nav-item col">
+                                <li class="nav-item col-md">
                                     <a class="nav-link bg-light text-dark" id= "kommentare" data-toggle="pill" href="#kommentar">  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-left-fill" viewBox="0 -1 16 16">
                                     <path d="M2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
                                     </svg> Kommentare</a>
@@ -62,7 +64,7 @@
                             
                 
                     <div class="tab-content">
-                        <div id="beschreibung" class="tab-pane active"><br>
+                        <div id="beschreibung" class="tab-pane fade"><br>
 
                             <div> <!-- style="background-color: rgb(240,240,240);" id="testimonials" -->
                                 <!-- Content Container -->
@@ -90,14 +92,14 @@
                                             </div>
                                         </div>
                                         <style>
-.carousel-control-prev-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
-}
+                                            .carousel-control-prev-icon {
+                                                background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+                                            }
 
-.carousel-control-next-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
-}
-</style>
+                                            .carousel-control-next-icon {
+                                                background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+                                            }
+                                        </style>
                                     </div>
                                         <a class="carousel-control-prev" href="#carouselTestimonials" role="button" data-slide="prev" >
                                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -204,10 +206,10 @@
                         </div>
                         
                         
-                        <div id="kommentar" class="tab-pane fade"><br>                   
-                        
-                            <div style="font-size: 80%;">
-                                <div class="container">
+                        <div id="kommentar" class="tab-pane active"><br>                   
+                                            
+                            <!-- <div style="font-size: 80%;"> 
+                                <div class="container"> 
                                     
                                         <div class="card offset-3 w-50 mb-4" style= "width: 18rem;">
                                             <div class="card-body">
@@ -244,8 +246,51 @@
                                             </div>
                                         </div>    
                                 </div>
-                            </div>   
-                    </div>
+                            </div>   -->
+                            <div class="container"> 
+                                <h6 class="card-title">4 Kommentare</h6>
+                                <div class="panel">
+                                    <div class="panel-body">
+                                        <textarea class="form-control" rows="2" placeholder="Öffentlich kommentieren..."></textarea>
+                                        <div class="mar-top clearfix">
+                                        <button class="btn btn-sm btn-secondary float-right mt-2 mb-4" type="submit"><i class="fas fa-pencil-alt"></i> Kommentieren</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="container">
+                                    <div class="row mb-4">
+                                        <div class="col-mx">
+                                            <div class="card card-white post">
+                                                <div class="post-heading">
+                                                    
+                                                    <div class="float-left image">
+                                                        <img src="http://bootdey.com/img/Content/user_1.jpg" class="img-circle avatar" alt="user profile image">
+                                                    </div>
+                                                    
+                                                    <div class="float-left meta">
+                                                        <div class="title h5 mt-1 ml-2">
+                                                            <a href="#"><b> Leo Scholl</b></a>
+                                                            hat kommentiert.
+                                                        </div>
+                                                        <h6 class="text-muted time ml-2">Vor 2 Minuten</h6>
+                                                    </div>
+                                                    
+                                                </div> 
+                                        
+                                    
+                                                <div class="post-description mt-1 ml-2"> 
+                                                    
+                                                    <p>Ich finde diese Pflanze einfach nur Klasse! Die Pflege ist besonders leicht und passt auch schön in meinen Balkon. Die Bienen freuen sich auch draüber :) </p>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     
             
     
