@@ -184,7 +184,7 @@
                                     grün
                                     </li>
                                     <li class="list-group-item col-md-3 list-group-item">
-                                    Blütenfarbe
+                                    Blütenform
                                     </li>
                                     <li class="list-group-item col-md-8 list-group-item">
                                     Scheinquirle
