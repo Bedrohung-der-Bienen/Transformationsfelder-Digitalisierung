@@ -80,10 +80,10 @@ if($resultat = mysqli_query($link,$query)){
                                 <table class="table table-borderless ml-2">
                                     <thead>
                                         <tr>
-                                            <th ><img src="https://img.icons8.com/android/30/000000/watering-can.png"/></th>
-                                            <th ><img src="https://img.icons8.com/material-rounded/30/000000/sun--v1.png"/></th>
-                                            <th ><img src="https://img.icons8.com/ios-filled/30/000000/broom-with-a-lot-of-dust.png"/></th>
-                                            <th ><img src="https://img.icons8.com/material-two-tone/30/000000/planner.png"/></th>
+                                        <th ><img src="img/gießkanne.png" style="height: 30px; width: 30px;"/></th>
+                                            <th ><img src="img/sonne.png" style="height: 30px; width: 30px;"/></th>
+                                            <th ><img src="img/bese.png" style="height: 30px; width: 30px;"/></th>
+                                            <th ><img src="img/kalender.png" style="height: 30px; width: 30px;"/></th>
                                         </tr>
                                     </thead>
                                     <tbody>
