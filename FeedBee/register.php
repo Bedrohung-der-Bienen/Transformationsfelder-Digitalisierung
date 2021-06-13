@@ -72,24 +72,46 @@
 		</nav>
 	</head>
 	<body>
-         <div class="container" id="login">
-		  <form  method="post">
-				<div class="form-group">
-					<h2>Registrieren</h2>
+	<div class="container" id="login">
+		<form  method="post">
+			  <div class="form-group" style="margin-top: 60px; margin-bottom: 40px;">
+				  <h3 style="margin-bottom: 20px;">Bitte registrieren Sie sich!</h3>
+
+				  <div class="form-group">
+					<label>Vorname</label>
 					<input type="text" class="form-control" name="vname" id="vname" placeholder="Vorname">
+				  </div>
+
+				  <div class="form-group">
+					<label>Nachname</label>
 					<input type="text" class="form-control" name="nname" id="nname" placeholder="Nachname">
+				  </div>
+
+				  <div class="form-group">
+					<label>Benutzername</label>
 					<input type="text" class="form-control" name="bname" id="bname" placeholder="Benutzername">
+				  </div>
+
+				  <div class="form-group">
+					<label>Email-Adresse</label>
 					<input type="email" class="form-control" name="email" id="email" placeholder="Email-Adresse">
+				  </div>
+
+				  <div class="form-group">
+					<label>Passwort</label>
 					<input type="password" class="form-control" name="password" id="password" placeholder="Passwort">
-			  </div>
-			  <center>
-			  		<button type="submit" class="btn btn-secondary" >Registrieren</button>
-			 </center>
-		  </form>
-	  </div>
-		<center>
-			<a href="login.php">anmelden?</a>
-		</center>
+				  </div>
+
+				  
+			</div>
+			<center>
+					<button type="submit" class="btn btn-secondary" >Registrieren</button>
+		   </center>
+		</form>
+	</div>
+	  <center style="margin-bottom: 37px;">
+		  <a href="login.php">anmelden?</a>
+	  </center>
     </body>
 	  <?php include ("footer.php");?>
 </html>
