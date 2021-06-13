@@ -57,7 +57,7 @@ if($_POST){
          <div class="container" id="anmelden4">
 		  <form  method="post">
 			  <div id="login">
-				<div class="form-group">
+				<div class="form-group" style="margin-top: 60px; margin-bottom: 40px;">
 					<h3>Bitte melden Sie sich an!</h3>
 					<a href="register.php">noch nicht registriert?</a>
 				</div>
@@ -78,12 +78,12 @@ if($_POST){
 				   </div>
 			  </div>
 			  <center>
-			  		<button type="submit" class="btn btn-secondary" >Anmelden</button>
+			  		<button type="submit" class="btn btn-secondary" style="margin-top: 25px;">Anmelden</button>
 			 </center>
 		  </form>
 	  </div>
 	</div>
-	<center>
+	<center style="margin-bottom: 37px;">
 		<a href="p_reset.php">Passwort vergessen?</a>
 	</center>
 		</br>
