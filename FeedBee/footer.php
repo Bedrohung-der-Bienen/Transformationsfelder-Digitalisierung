@@ -2,7 +2,7 @@
 	<footer>
 		<div class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 				<div class="container">
-					<a class="navbar-brand" href="index.html"><img src="img/templatemo_logo_2.png" alt="logo"/></a>
+					<a class="navbar-brand" href="index.html"><img src="img/logo2.png" alt="logo"/></a>
 				
 					<ul class="navbar-nav m-auto">
 						<li class="nav-item"><a href="#" class="nav-link"></a></li>

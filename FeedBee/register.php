@@ -54,7 +54,7 @@
         <script src="js/bootstrap.min.js"></script>
 		<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    	<div class="container">
-	    		<a class="navbar-brand" href="index.html"><img src="img/templatemo_logo_2.png" alt="logo"/></a>
+	    		<a class="navbar-brand" href="index.html"><img src="img/logo2.png" alt="logo"/></a>
 	    		<form action="#" class="searchform order-sm-start order-lg-last"></form>
 	      		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        		<span class="fa fa-bars"></span> Menu
