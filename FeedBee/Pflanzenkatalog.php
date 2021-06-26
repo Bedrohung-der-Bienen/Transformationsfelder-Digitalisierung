@@ -73,7 +73,7 @@ if($resultat = mysqli_query($link,$query)){
                     <div class="card card-body mb-2">
                         <div class="media align-items-center align-items-lg-start text-center text-lg-left flex-column flex-lg-row">
                             <div class="mr-2 mb-3 mb-lg-0"> <img src="img/Thymian2.jpg" width="180" height="150" alt=""> </div>
-                            <h6 class="media-title font-weight-semibold mt-5"> <a href="pflanze.php? id=<?php print_r($row[12]);?>" data-abc="true"><?php print_r($row[13]);?> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmark" viewBox="0 0 16 16">
+                            <h6 class="media-title font-weight-semibold mt-5" style="width: 170px;"> <a href="pflanze.php? id=<?php print_r($row[12]);?>" data-abc="true"><?php print_r($row[13]);?> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmark" viewBox="0 0 16 16">
                                 <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
                               </svg></a> </h6>
                             <div class="media-body">
