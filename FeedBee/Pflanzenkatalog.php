@@ -67,34 +67,45 @@ if($resultat = mysqli_query($link,$query)){
 <?php
 		while($row = mysqli_fetch_array($resultat)){
 		?>
-        <div class="">
+                <div class="">
             <div class="row">
                 <div class="col-md">
                     <div class="card card-body mb-2">
                         <div class="media align-items-center align-items-lg-start text-center text-lg-left flex-column flex-lg-row">
-                            <div class="mr-2 mb-3 mb-lg-0"> <img src="img/Thymian2.jpg" width="150" height="150" alt=""> </div>
+                            <div class="mr-2 mb-3 mb-lg-0"> <img src="img/Thymian2.jpg" width="180" height="150" alt=""> </div>
                             <h6 class="media-title font-weight-semibold mt-5"> <a href="pflanze.php? id=<?php print_r($row[12]);?>" data-abc="true"><?php print_r($row[13]);?> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmark" viewBox="0 0 16 16">
                                 <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
-                              </svg></a> </h6> <br>
+                              </svg></a> </h6>
                             <div class="media-body">
-                                <table class="table table-borderless ml-2 text-center">
-                                    <thead>
-                                        <tr>
-                                        <th ><img src="img/gießkanne.png" style="height: 30px; width: 30px;"/></th>
-                                            <th ><img src="img/sonne.png" style="height: 30px; width: 30px;"/></th>
-                                            <th ><img src="img/bese.png" style="height: 30px; width: 30px;"/></th>
-                                            <th ><img src="img/kalender.png" style="height: 30px; width: 30px;"/></th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr class="text-center">
-                                            <td><?php print_r($row[8]);?></td>
-                                            <td><?php print_r($row[9]);?></td>
-                                            <td>?</td>
-                                            <td><?php print_r($row[2]);?></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+
+                            <div class="mt-4 text-center">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <div class="mt-3">
+                                                <img src="img/gießkanne.png" style="height: 30px; width: 30px;"/>
+                                                <p class="mb-0 text-muted"><?php print_r($row[8]);?></p>
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="mt-3">
+                                                <img src="img/sonne.png" style="height: 30px; width: 30px;"/>
+                                                <p class="mb-0 text-muted"><?php print_r($row[9]);?></p>
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="mt-3">
+                                                <img src="img/bese.png" style="height: 30px; width: 30px;"/>
+                                                <p class="mb-0 text-muted">?</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="mt-3">
+                                                <img src="img/kalender.png" style="height: 30px; width: 30px;"/>
+                                                <p class="mb-0 text-muted"><?php print_r($row[2]);?></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                             <div class="mt-3 mt-lg-4 ml-lg-3 text-center">
                                 <div class="text-muted">31 Bewertungen</div>
