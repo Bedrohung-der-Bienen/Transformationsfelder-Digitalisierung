@@ -1,4 +1,5 @@
 <?php 
+session_start();
 include("connection.php");
 $id = $_GET["id"];
 $query = "SELECT * FROM steckbrief INNER JOIN pflanze ON steckbrief.Pflanze_idPflanze=pflanze.idPflanze WHERE Pflanze_idPflanze = $id";
@@ -29,7 +30,7 @@ $resultat = mysqli_query($link,$query);
         <script src="js/bootstrap.min.js"></script>
 		<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    	<div class="container">
-	    		<a class="navbar-brand" href="index.html"><img src="img/logo2.png" alt="logo"/></a>
+	    		<a class="navbar-brand" href="index.html"><img src="img/templatemo_logo_2.png" alt="logo"/></a>
 	    		<form action="#" class="searchform order-sm-start order-lg-last"></form>
 	      		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        		<span class="fa fa-bars"></span> Menu
@@ -63,8 +64,19 @@ $resultat = mysqli_query($link,$query);
                                         <div class="mr-2 mb-3 mb-lg-0"> 
                                             <img src="img/Thymian2.jpg" width="100" height="100" alt=""> 
                                         </div>
-                                        <h6 class="media-title font-weight-semibold mt-5"><?php print_r($row[13]); ?>  
-                                            <a href="#" data-abc="true"><i class="material-icons" style="vertical-align: middle;">bookmark_border</i>
+                                        <script>
+                                        window.onload = function() {
+                                            var markieren= document.getElementById('markieren');
+                                            markieren.addEventListener('click', ausgabe, false);
+                                            function ausgabe() {
+                                                window.location.href = "http://localhost/feedbee/merkliste.php";
+                                            }
+                                            
+                                        }
+                                        </script>
+                                        <h6 class="media-title font-weight-semibold mt-5"><?php print_r($row[15]); ?>  
+                                            <a href="#" id="markieren" data-abc="true"><i class="material-icons" style="vertical-align: middle;">bookmark_border</i>
+                                               
                                             </a>
                                         </h6><br>
                                     </div>
@@ -134,7 +146,7 @@ $resultat = mysqli_query($link,$query);
 
                                     <div class="card mb-5">
                                         <div class="card-body">        
-                                            <?php print_r($row[14]);?>
+                                            <?php print_r($row[16]);?>
                                         </div>
                                     </div>
                                 </div>
