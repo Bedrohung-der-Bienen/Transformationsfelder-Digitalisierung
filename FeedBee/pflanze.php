@@ -50,7 +50,8 @@ $resultat = mysqli_query($link,$query);
     <body>
                     <div class="container">
                         <div class="container">
-                            <a class="btn btn-link" style="color: rgb(0, 0, 0)" href="Pflanzenkatalog.php" role="button" ><i class="fas fa-arrow-left mr-2" ></i>Zurück</a>
+                            <a class="btn btn-link" style="color: rgb(0, 0, 0)" href="Pflanzenkatalog.php" role="button" ><span class="material-icons" style="vertical-align: middle;">
+                            arrow_back</span></i>Zurück</a>
                         </div>
                         
                         <?php
@@ -69,7 +70,7 @@ $resultat = mysqli_query($link,$query);
                                             var markieren= document.getElementById('markieren');
                                             markieren.addEventListener('click', ausgabe, false);
                                             function ausgabe() {
-                                                window.location.href = "http://localhost/feedbee/merkliste.php";
+                                                window.location.href = "http://192.168.64.3/FeedBee/merkliste.php";
                                             }
                                             
                                         }
@@ -87,13 +88,16 @@ $resultat = mysqli_query($link,$query);
                         <div class="container">
                             <ul class="nav nav-pills border-secondary mb-2" role="tablist">
                                         <li class="nav-item col-md">
-                                            <a class="nav-link active bg-light text-dark" data-toggle="pill" href="#beschreibung" ><i class="fas fa-list"></i> Beschreibung</a>
+                                            <a class="nav-link active bg-light text-dark" data-toggle="pill" href="#beschreibung" ><span class="material-icons" style="vertical-align: middle;">
+                                            format_list_bulleted</span> Beschreibung</a>
                                         </li>
                                         <li class="nav-item col-md">
-                                            <a class="nav-link bg-light text-dark" data-toggle="pill" href="#steckbrief"> <i class="fas fa-envelope"></i>  Steckbrief</a>
+                                            <a class="nav-link bg-light text-dark" data-toggle="pill" href="#steckbrief"> <span class="material-icons" style="vertical-align: middle;">
+                                            mail</span></i>  Steckbrief</a>
                                         </li>
                                         <li class="nav-item col-md">
-                                            <a class="nav-link bg-light text-dark" id= "kommentare" data-toggle="pill" href="#kommentar">  <i class="fas fa-comment"></i> Kommentare</a>
+                                            <a class="nav-link bg-light text-dark" id= "kommentare" data-toggle="pill" href="#kommentar"> <span class="material-icons" style="vertical-align: middle;">
+                                            chat_bubble</span> Kommentare</a>
                                         </li>
                             </ul>
 
