@@ -81,7 +81,6 @@
             <!-- Content Container -->
             <div class="container text-center py-5">
                 <h1 class="text-center display-5">Hilf mit</h1>
-                <h6>............</h6>
                 <div class="row mt-5 mb-1">
                     <div class="col-sm-3">
                         <img src="img/h1.jpg" class="img-fluid img-feature img-thumbnail mx-auto d-block mb-4 box-shadow" alt="feature-photo">
@@ -114,7 +113,7 @@
                 <!-- Faszination Wildbienen -->
                 <div class="jumbotron-fluid align-items-center" id="header">
                     <div class="container">
-                        <h1 class="display-5 text-center mt-5 mb-3">Faszination Wildbienen</h1>
+                        <h1 class="display-5 text-center mb-3">Faszination Wildbienen</h1>
                         <p>Wildbienen haben eine enorme Vielfalt an Lebensweisen. Die meisten Wildbienen leben solitär, 
                             d. h. jedes Weibchen baut sein Nest und versorgt seine Brut für sich allein, also ohne Mithilfe von Artgenossen. Zu den 
                             sozialen Bienen gehören außer einigen Furchen- und Schmalbienen auch die Hummeln, die in einjährigen Staaten leben. Die 
