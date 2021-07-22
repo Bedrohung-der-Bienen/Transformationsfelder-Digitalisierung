@@ -110,7 +110,7 @@
 		</form>
 	</div>
 	  <center style="margin-bottom: 37px;">
-		  <a href="login.php">anmelden?</a>
+		  <a href="Login.php">anmelden?</a>
 	  </center>
     </body>
 	  <?php include ("footer.php");?>

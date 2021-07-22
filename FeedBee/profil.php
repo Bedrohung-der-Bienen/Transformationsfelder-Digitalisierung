@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="de">
     <head>
-		<title>Merkliste</title>
+		<title>Profil</title>
 		<meta charset="utf-8">
     	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -30,7 +30,7 @@
 						<li class="nav-item"><a href="Bienenwissen.php" class="nav-link"><img src="img/bee.png" alt="" style="height: 26px;width: 26px;"> Bienenwissen</a></li>
 	        			<li class="nav-item"><a href="Pflanzenkatalog.php" class="nav-link"><img src="img/plant.png" alt="" style="height: 26px;width: 26px;"> Pflanzenkatalog</a></li>
 	        			<li class="nav-item"><a href="Aussatkalender.php" class="nav-link"><img src="img/planner.png" alt="" style="height: 26px;width: 26px;"> Aussaatkalender</a></li>
-	            		<li class="nav-item "><a href="Login.php" class="nav-link"><img src="img/profil.png" alt="" style="height: 26px;width: 26px;"> Anmelden</a></li>
+	            		<li class="nav-item "><a href="profil.php" class="nav-link"><img src="img/profil.png" alt="" style="height: 26px;width: 26px;"> Profil</a></li>
 	        		</ul>
 	      		</div>
 			</div>
@@ -39,7 +39,59 @@
 	</head>
 	<body>
         
-        <h1>Hier kommt Profil</h1>
+		
+	
+		<div class="container">
+
+				<button type="button" class="btn btn-secondary btn-sm float-right d-"><i class="fa fa-pencil"></i> Bearbeiten</button>
+				<div class="text-center mt-5">
+					<img src="img/profilbild.jpg"  class="rounded" style="width: 150px; height: 170px; object-fit: cover; margin-left:100px" alt="...">
+				</div>
+				
+				<div class="card-body border-bottom">
+					<h4 class="card-title text-center">Lena Meier</h4>
+				</div>
+		</div>
+
+
+		<div class="container">
+			<div class="media text-muted pt-3">
+				<span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-user fa-stack-1x fa-inverse"></i>
+				</span> 
+				<p class="media-body pb-3 mb-0 small lh-125 border-gray">
+					<strong class="d-block text-gray-dark">Benutzername</strong>
+					mei_lena
+				</p>
+			</div>
+		
+			<div class="media text-muted pt-3">
+				<span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+				</span> 
+				<p class="media-body pb-3 mb-0 small lh-125 border-gray">
+					<strong class="d-block text-gray-dark">E-Mail</strong>
+					lenameier@gmail.de
+				</p>
+			</div>
+			<div class="media text-muted pt-3 mb-3">
+				<span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-lock fa-stack-1x fa-inverse"></i>
+				</span> 
+				<p class="media-body pb-3 mb-0 small lh-125 border-gray">
+					<strong class="d-block text-gray-dark">Passwort</strong>
+					h****
+				</p>
+			</div>
+		</div>
+
+	
+		
+
+
     </body>
 	<?php include ("footer.php"); ?>
 </html>
