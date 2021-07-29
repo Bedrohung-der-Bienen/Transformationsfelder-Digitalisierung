@@ -7,7 +7,8 @@ if($_POST){
 	$resultat = mysqli_query($link,$query);
 			
 	if($row = mysqli_fetch_array($resultat)){
-		header("Location: merkliste.php");
+		$_SESSION['email'] =$_POST['email'];
+		header("Location: profil.php");
 	}else{
 		echo "<p class='alert alert-danger' role='alert'>E-Mail oder Passwort sind falsch</p>";
 	}

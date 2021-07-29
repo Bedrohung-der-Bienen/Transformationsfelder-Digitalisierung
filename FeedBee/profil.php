@@ -1,3 +1,15 @@
+<?php
+
+	session_start();
+	include("connection.php");
+	if($_SESSION['email'] != ""){
+		
+		$query =  "SELECT * FROM `user` WHERE `Email` = '".$_SESSION["email"]."'";
+		
+		if($resultat = mysqli_query($link,$query)){
+			$row = mysqli_fetch_array($resultat);
+
+?>
 <!doctype html>
 <html lang="de">
     <head>
@@ -53,7 +65,7 @@
 				</div>
 				
 				<div class="card-body border-bottom">
-					<h4 class="card-title text-center">Lena Meier</h4>
+					<h4 class="card-title text-center"><?php print_r($row[2]);?>  <?php print_r($row[3]); ?></h4>
 				</div>
 		</div>
 
@@ -66,7 +78,7 @@
 				</span> 
 				<p class="media-body pb-3 mb-0 small lh-125 border-gray">
 					<strong class="d-block text-gray-dark">Benutzername</strong>
-					mei_lena
+					<?php print_r($row[1]); ?>
 				</p>
 			</div>
 		
@@ -77,7 +89,7 @@
 				</span> 
 				<p class="media-body pb-3 mb-0 small lh-125 border-gray">
 					<strong class="d-block text-gray-dark">E-Mail</strong>
-					lenameier@gmail.de
+					<?php print_r($row[5]); ?>
 				</p>
 			</div>
 			<div class="media text-muted pt-3 mb-3">
@@ -87,11 +99,17 @@
 				</span> 
 				<p class="media-body pb-3 mb-0 small lh-125 border-gray">
 					<strong class="d-block text-gray-dark">Passwort</strong>
-					h****
+					<?php echo($row[4] [0]); ?> ***
 				</p>
 			</div>
 		</div>
-
+<?php
+				}else{
+			echo "<p class='alert alert-danger' role='alert'>Fehler</p>";
+			
+		}
+	}
+		?>
 	
 		
 

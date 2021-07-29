@@ -30,7 +30,6 @@
 					}
 			}
 			}
-		echo "<p class='alert alert-danger' role='alert'><b>FEHLER</b> Bitte geben Sie alle daten ein!";
 	}
 ?>
 <!doctype html>
