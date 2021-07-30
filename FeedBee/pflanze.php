@@ -156,75 +156,56 @@ $resultat = mysqli_query($link,$query);
                                 </div>
 
                                 <div id="steckbrief" class="tab-pane fade"><br>
-                                    <div class="list-group d-flex flex-row flex-wrap justify-content-center mb-4">
-                                        <li class="list-group-item col-md-3 list-group-item">
-                                        Aussaat
-                                        </li>
-                                        <li class="list-group-item col-md-8 list-group-item">
-                                        <?php print_r($row[2]);?> 
-                                        </li>
-                                        <li class="list-group-item col-md-3 list-group-item">
-                                        Blütezeit
-                                        </li>
-                                        <li class="list-group-item col-md-8 list-group-item">
-                                        <?php print_r($row[4]);?>
-                                        </li>
-                                        <li class="list-group-item col-md-3 list-group-item">
-                                        Größe
-                                        </li>
-                                        <li class="list-group-item col-md-8 list-group-item">
-                                        <?php print_r($row[3]);?>
-                                        </li>
-                                        <li class="list-group-item col-md-3 list-group-item">
-                                        Bodenfeuchte
-                                        </li>
-                                        <li class="list-group-item col-md-8 list-group-item">
-                                        <?php print_r($row[7]);?>
-                                        </li>
-                                        <li class="list-group-item col-md-3 list-group-item">
-                                        Gießvorgang
-                                        </li>
-                                        <li class="list-group-item col-md-8 list-group-item">
-                                        <?php print_r($row[8]);?>
-                                        </li>
-                                        <li class="list-group-item col-md-3 list-group-item">
-                                        Verwendung
-                                        </li>
-                                        <li class="list-group-item col-md-8 list-group-item">
-                                        <?php print_r($row[6]);?>
-                                        </li>
-                                        <li class="list-group-item col-md-3 list-group-item">
-                                        Bodenart
-                                        </li>
-                                        <li class="list-group-item col-md-8 list-group-item">
-                                        <?php print_r($row[10]);?>
-                                        </li>
-                                        <li class="list-group-item col-md-3 list-group-item">
-                                        Licht
-                                        </li>
-                                        <li class="list-group-item col-md-8 list-group-item">
-                                        <?php print_r($row[9]);?>
-                                        </li>
-                                        <li class="list-group-item col-md-3 list-group-item">
-                                        Winterhärte
-                                        </li>
-                                        <li class="list-group-item col-md-8 list-group-item">
-                                        winterhart KEIN EINTRAG
-                                        </li>
-                                        <li class="list-group-item col-md-3 list-group-item">
-                                        Blattfarbe
-                                        </li>
-                                        <li class="list-group-item col-md-8 list-group-item">
-                                        <?php print_r($row[5]);?>
-                                        </li>
-                                        <li class="list-group-item col-md-3 list-group-item">
-                                        Blütenform
-                                        </li>
-                                        <li class="list-group-item col-md-8 list-group-item">
-                                        <?php print_r($row[4]);?>
-                                        </li>
-                                    </div>
-                                </div>
+                                <table class="table table-bordered">
+                                    <tr>
+                                        <td>Aussaat</td>
+                                        <td><?php print_r($row[2]);?></td>                                    
+                                    </tr>
+                                    <tr>
+                                        <td>Blütezeit</td>
+                                        <td><?php print_r($row[4]);?></td>                                    
+                                    </tr>
+                                    <tr>
+                                        <td>Größe</td>
+                                        <td><?php print_r($row[3]);?></td>                                    
+                                    </tr>
+                                    <tr>
+                                        <td>Bodenfeuchte</td>
+                                        <td><?php print_r($row[7]);?></td>                                    
+                                    </tr>
+                                    <tr>
+                                        <td>Gießvorgang</td>
+                                        <td><?php print_r($row[8]);?></td>                                    
+                                    </tr>
+                                    <tr>
+                                        <td>Verwendung</td>
+                                        <td> <?php print_r($row[6]);?></td>                                    
+                                    </tr>
+                                    <tr>
+                                        <td>Bodenart</td>
+                                        <td><?php print_r($row[10]);?></td>                                    
+                                    </tr>
+                                    <tr>
+                                        <td>Licht</td>
+                                        <td><?php print_r($row[9]);?></td>                                    
+                                    </tr>
+                                    <tr>
+                                        <td>Winterhärte</td>
+                                        <td>nichts</td>                                    
+                                    </tr>
+                                    <tr>
+                                        <td>Blattfarbe</td>
+                                        <td><?php print_r($row[5]);?></td>                                    
+                                    </tr>
+                                    <tr>
+                                        <td>Blütenform</td>
+                                        <td><?php print_r($row[4]);?></td>                                    
+                                    </tr>
+
+
+                                </table>
+                                    
+                                
 
                                 <div id="kommentar" class="tab-pane fade"><br>                               
                                     <div class="container"> 
