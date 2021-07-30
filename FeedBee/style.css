@@ -17,3 +17,6 @@ a {
 	margin-right: 5px;
 }
 
+.dropdown-menu {
+	min-width:inherit;
+  }
