@@ -3,15 +3,13 @@
 	session_start();
 	include("connection.php");
 	if($_SESSION['email']){
-		
 		$query =  "SELECT * FROM `user` WHERE `Email` = '".$_SESSION["email"]."'";
-		
 		if($resultat = mysqli_query($link,$query)){
 			$row = mysqli_fetch_array($resultat);
 			
 			if($_POST){
 				$query = "UPDATE `user` SET `Passwort`= '".$_POST["passwort"]."', `Vorname`= '".$_POST["vname"]."', `Nachname`= '".$_POST["nname"]."', `Benutzername`= '".$_POST["bname"]."'
-				WHERE Email = '".$_SESSION['username']."'";
+				WHERE Email = '".$_SESSION['email']."'";
 					if(mysqli_query($link,$query)){
 						header("Location: profil.php");
 					}else{

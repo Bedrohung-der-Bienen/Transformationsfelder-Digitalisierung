@@ -58,8 +58,9 @@
 
 	
 		<div class="container">
-
-				<button type="button" class="btn btn-secondary btn-sm float-right d-"><i class="fa fa-pencil"></i> Bearbeiten</button>
+				<form action="updateProfil.php">
+					<button type="submit" class="btn btn-secondary btn-sm float-right d-"><i class="fa fa-pencil"></i> Bearbeiten</button>
+				</form>
 				<div class="text-center mt-5">
 					<img src="img/profilbild.jpg"  class="rounded" style="width: 150px; height: 170px; object-fit: cover; margin-left:100px" alt="...">
 				</div>
