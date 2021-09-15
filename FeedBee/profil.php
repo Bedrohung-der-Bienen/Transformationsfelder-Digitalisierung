@@ -2,6 +2,10 @@
 
 	session_start();
 	include("connection.php");
+	if(!isset($_SESSION['email'])) {
+   		//die("Bitte erst einloggen");
+		  header('location: login.php');
+	}
 	if($_SESSION['email'] != ""){
 		
 		$query =  "SELECT * FROM `user` WHERE `Email` = '".$_SESSION["email"]."'";
@@ -43,10 +47,10 @@
 	        			<li class="nav-item"><a href="Pflanzenkatalog.php" class="nav-link"><img src="img/plant.png" alt="" style="height: 26px;width: 26px;"> Pflanzenkatalog</a></li>
 	        			<li class="nav-item "><a href="merkliste.php" class="nav-link"><img src="img/bookmark.png" alt="" style="height: 26px;width: 26px;"> Merkliste</a></li>
 						<li class="nav-item"><a href="Aussatkalender.php" class="nav-link"><img src="img/planner.png" alt="" style="height: 26px;width: 26px;"> Aussaatkalender</a></li>
-						<li class="nav-item dropdown ">
-						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="profil.php" role="button" aria-haspopup="true" aria-expanded="false"><img src="img/profil.png" alt="" style="height: 26px;width: 26px;">Profil</a>
+						<li class="nav-item dropdown nav-item active"> 
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="profil.php" role="button" aria-haspopup="true" aria-expanded="false"><img src="img/profil.png" alt="" style="height: 26px;width: 26px;">Profil</a>
 							<div class="dropdown-menu">
-							<a class="dropdown-item" href="login.php"><img src="img/logout.png" alt="" style="height: 20px;width: 20px;"> Abmelden</a>
+							<a class="dropdown-item" href="logout.php"><img src="img/logout.png" alt="" style="height: 20px;width: 20px;"> Abmelden</a>
 						</li>
 	        		</ul>
 	      		</div>
