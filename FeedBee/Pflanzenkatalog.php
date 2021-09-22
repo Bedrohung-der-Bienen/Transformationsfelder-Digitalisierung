@@ -89,17 +89,17 @@ if($resultat = mysqli_query($link,$query)){
                     <input type="text" class="form-control" name="search" id="search" placeholder="Pflanze suchen...">
                 </div>
             </div>
-          
-        
+         
+       
         <div class="btn-group mb-3">
-            
-            <button type="submit" name="filter" id="filter" class="btn btn-md btn-outline-secondary">Filter zurücksetzen</button>
-            <button type="submit" name="fruehling" id="fruehling" class="btn btn-md btn-outline-secondary">Frühling</button>
-			<button type="submit" name="sommer" id="sommer" class="btn btn-md btn-outline-secondary">Sommer</button>
-            <button type="submit" name="herbst" id="herbst" class="btn btn-md btn-outline-secondary">Herbst</button>
-			<button type="submit" name="winter" id="winter" class="btn btn-md btn-outline-secondary">Winter</button>
+           
+            <button type="submit" name="filter" id="filter" class="btn btn-sm btn-outline-secondary">Filter zurücksetzen</button>
+            <button type="submit" name="fruehling" id="fruehling" class="btn btn-sm btn-outline-secondary">Frühling</button>
+            <button type="submit" name="sommer" id="sommer" class="btn btn-sm btn-outline-secondary">Sommer</button>
+            <button type="submit" name="herbst" id="herbst" class="btn btn-sm btn-outline-secondary">Herbst</button>
+<button type="submit" name="winter" id="winter" class="btn btn-sm btn-outline-secondary">Winter</button>
         </div>
-			</form> 
+</form>
 <?php
 		while($row = mysqli_fetch_array($resultat)){
 			
@@ -140,7 +140,7 @@ if($resultat = mysqli_query($link,$query)){
                                         <div class="col-3">
                                             <div class="mt-3">
                                                 <img src="img/kalender.png" style="height: 30px; width: 30px;"/>
-                                                <p class="mb-0 text-muted"><?php print_r($row[1]);?></p>
+                                                <p class="mb-0 text-muted"><?php print_r($row[2]);?></p>
                                             </div>
                                         </div>
                                     </div>
