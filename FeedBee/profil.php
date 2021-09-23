@@ -47,6 +47,7 @@
 						<li class="nav-item active dropdown ">
 						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="profil.php" role="button" aria-haspopup="true" aria-expanded="false"><img src="img/profil.png" alt="" style="height: 26px;width: 26px;">Profil</a>
 							<div class="dropdown-menu">
+							<a class="dropdown-item" href="profil.php"><img src="img/profil.png" alt="" style="height: 20px;width: 20px;"> Profil</a>
 							<a class="dropdown-item" href="login.php" style="min-width: inherit; display: inline-block;"><img src="img/logout.png" alt="" style="height: 20px;width: 20px;"> Abmelden</a></li>
 							</div>
 	        		</ul>
