@@ -44,6 +44,7 @@ $resultatKommentare = mysqli_query($link,$kommentare);
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	
 		<link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="style.css">
 		
     
               <!-- Optionales JavaScript -->
@@ -164,12 +165,12 @@ $resultatKommentare = mysqli_query($link,$kommentare);
 -->
                                                 
                                             </div>
-                                                <a class="carousel-control-prev" href="#carouselTestimonials" role="button" data-slide="prev" >
+                                                <a class="carousel-control-prev" href="#carouselTestimonials" role="button" data-slide="prev">
                                                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                                     <span class="sr-only">Vorheriges</span>
                                                 </a>
                                                 <a class="carousel-control-next" href="#carouselTestimonials" role="button" data-slide="next">
-                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="carousel-control-next-icon" aria-hidden="true" ></span>
                                                     <span class="sr-only">Nächstes</span>
                                                 </a>
                                             </div>

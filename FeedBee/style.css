@@ -9,9 +9,7 @@
 	margin-right: auto;
 	padding: 0;		
 }
-a {
-	color: black;
-}
+
 .form-group{
 	margin-left: 5px;
 	margin-right: 5px;
@@ -20,3 +18,8 @@ a {
 .dropdown-menu {
 	min-width:inherit;
   }
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+	filter: invert(100%);
+}
+
