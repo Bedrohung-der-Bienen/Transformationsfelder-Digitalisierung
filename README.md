@@ -6,17 +6,12 @@
 ## Projekt Bedrohung der Bienen- Medieninformatik Master, Technische Hochschule Köln  
 
 ## :construction_worker: Teammitglieder
-**Bouchra Allachi** | **Ayse Erdur** | **Merve Tanriverdi** | **Babak Mehrabipour** 
+**Decider** | **Documentory** | **Scribbels** | **Facilitator** 
 ------------- | ------------- | ------------- | ------------- 
 <img src="https://avatars.githubusercontent.com/u/73944868?v=4" width="100px"> | <img src="https://avatars.githubusercontent.com/u/73952261?v=4" width="100px"> | <img src="https://avatars.githubusercontent.com/u/32902599?v=4" width="100px"> | <img src="https://avatars.githubusercontent.com/u/45423301?v=4" width="100px"> 
-[Bouchra-Allachi](https://github.com/Bouchra-Allachi) | [Ayse-Erdur](https://github.com/Ayse-Erdur) | [mervetv](https://github.com/mervetv) | [Babak Mehrabipour](https://github.com/babakmehrabipour) 
-
- _Decider: [Bouchra Allachi](https://github.com/Bouchra-Allachi)_ \
- _Documentory: [Ayse Erdur](https://github.com/Ayse-Erdur)_ \
- _Scribbels: [Merve Tanriverdi](https://github.com/mervetv)_, _[Linnéa Doberstein](https://github.com/Moosgloeckchen)_ \
- _Facilitator: [Babak Mehrabipour](https://github.com/babakmehrabipour)_ 
+[Bouchra Allachi](https://github.com/Bouchra-Allachi) | [Ayse Erdur](https://github.com/Ayse-Erdur) | [Merve Tanriverdi](https://github.com/mervetv) | [Babak Mehrabipour](https://github.com/babakmehrabipour) 
  
- Unser Miro Board befindet sich unter [https://miro.com/app/board/o9J_kgtkRCU=/].
+ Unser Miro Board befindet sich [hier](https://miro.com/app/board/o9J_kgtkRCU=/).
  
 # Einführung 
 Das Projekt Bedrohung der Bienen wird im Schwerpunkt Human Computer Interaction im Master Studium Medieninformatik an der TH Köln durchgeführt. Im Rahmen des Projekts 1 im Wintersemester 20/21 wird im Folgenden die Vision und das Konzept zur Entwicklung einer webbasierten Anwendung, um die Artenvielfalt der Bienen zu schützen, dokumentiert. Der Schutz und der Erhalt von Artenvielfalt und Biodiversität sind zentrale Zukunftsaufgaben. Sowohl Honigbienen als auch Wildbienen sind für fast alle Ökosysteme unersetzlich. Denn sie tragen einen unverzichtbaren Beitrag für den Erhalt der biologischen Vielfalt. Da sie für die Bestäubung eines großen Teils der Pflanzen und somit für die Reichhaltigkeit der Nahrungskette sorgen, nämlich 80% unserer Nutz- und Wildpflanzen müssen bestäubt werden. Dabei hängt in der Welt ein drittel der landwirtschaftlichen Pflanzenproduktion von Bestäubung ab. Die Honigbiene ist das drittwichtigste Nutztier, dabei sichert sie durch ihre Bestäubungsleistung die Vielfalt an Nahrungsmitteln. Sie ist hauptverantwortlich für eine gute Ernte und ökologische Artenvielfalt.
