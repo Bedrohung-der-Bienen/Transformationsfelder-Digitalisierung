@@ -6,7 +6,7 @@ include("header.php");
 
 $id = $_GET["id"];
 if(isset($_POST['kommentieren'])){
-    $user = "SELECT * FROM `user` WHERE `Email` = '".($_SESSION['email'])."'";
+    $user = "SELECT * FROM `user` WHERE `idUser` = '".($_SESSION['user'])."'";
 	$resultatUser = mysqli_query($link,$user);
 	$row = mysqli_fetch_array ($resultatUser);
 	$userid =$row[0];
