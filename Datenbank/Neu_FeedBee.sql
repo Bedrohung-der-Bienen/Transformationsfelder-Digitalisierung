@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Erstellungszeit: 08. Okt 2021 um 12:55
+-- Erstellungszeit: 08. Okt 2021 um 14:50
 -- Server-Version: 10.1.35-MariaDB
 -- PHP-Version: 7.2.9
 
@@ -198,9 +198,9 @@ CREATE TABLE `user` (
 
 INSERT INTO `user` (`idUser`, `Benutzername`, `Vorname`, `Nachname`, `Passwort`, `Email`, `salt`) VALUES
 (4, 'ballacho', 'Bouchra', 'Allachi', 'test', 'test@test.de', NULL),
-(8, 'Merve', 'Merve', 'Test', '123456', 'merve@hotmail.de', NULL),
+(8, 'altercode', 'Müller', 'Test', '123456', 'test@alt.de', NULL),
 (25, 'Eayse', 'Ayse', 'Erdur', '21f26499c1dfd521df463d42b182952e035c638c106d54a2e9ee6d11f87e89ff', 'b@a.de', '‚Ìþ²¸Úß9Ê·ÓÔ%sHo!Ð©æ2ƒÞbû‚gSx'),
-(26, 'testi', 'Test', 'Ntest', '9de8f9562933779f5aa48dec8964a0403a12fd6494e60b39b375c220af1c828e', 'test@t.de', 'Å¯ñÉÉÐžC6´EGù(ŸÞ×1ü÷2œ5‚ß÷.\Z');
+(26, 'neuercode', 'Peter', 'Ntest', '9de8f9562933779f5aa48dec8964a0403a12fd6494e60b39b375c220af1c828e', 'test@neu.de', 'Å¯ñÉÉÐžC6´EGù(ŸÞ×1ü÷2œ5‚ß÷.\Z');
 
 -- --------------------------------------------------------
 
