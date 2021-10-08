@@ -2,8 +2,8 @@
 session_start();
 include("connection.php");
 $idpflanze = $_GET["id"];
-if(isset($idpflanze) && isset($_SESSION['email'])){
-	$query = "SELECT * FROM `user` WHERE `Email` = '".($_SESSION['email'])."'";
+if(isset($idpflanze) && isset($_SESSION['user'])){
+	$query = "SELECT * FROM `user` WHERE `idUser` = '".($_SESSION['user'])."'";
 	$resultat = mysqli_query($link,$query);
 	$row = mysqli_fetch_array ($resultat);
 	$userid =$row[0];
