@@ -1,4 +1,7 @@
 # Transformationsfelder-Digitalisierung
+<p align="center">
+<img src="https://github.com/Bedrohung-der-Bienen/Transformationsfelder-Digitalisierung/blob/main/FeedBee/Refaktorisierte%20FeedBee/img/Rettung%20der%20Bienen.png" width="100%">
+</p>
 
 ## Projekt Bedrohung der Bienen- Medieninformatik Master, Technische Hochschule Köln  
  _Decider: [Bouchra Allachi](https://github.com/Bouchra-Allachi)_ \
