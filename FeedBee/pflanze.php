@@ -163,7 +163,7 @@ $resultatKommentare = mysqli_query($link,$kommentare);
         
         <div id="kommentar" class="tab-pane fade"><br> 
             <?php
-            if(isset($_SESSION['email'])){
+            if(isset($_SESSION['user'])){
             ?>
             <div class="container">
                 <h6 class="card-title">Hier kommentieren</h6>
