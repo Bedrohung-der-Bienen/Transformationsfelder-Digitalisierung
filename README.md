@@ -4,6 +4,13 @@
 </p>
 
 ## Projekt Bedrohung der Bienen- Medieninformatik Master, Technische Hochschule Köln  
+
+## :construction_worker: Teammitglieder
+**Bouchra Allachi** | **Ayse Erdur** | **Merve Tanriverdi** | **Babak Mehrabipour** 
+------------- | ------------- | ------------- | ------------- 
+<img src="https://avatars.githubusercontent.com/u/73944868?v=4" width="100px"> | <img src="https://avatars.githubusercontent.com/u/73952261?v=4" width="100px"> | <img src="https://avatars.githubusercontent.com/u/32902599?v=4" width="100px"> | <img src="" width="100px"> 
+[Bouchra Allachi](https://github.com/Bouchra-Allachi) | [Ayse Erdur](https://github.com/Ayse-Erdur) | [Merve Tanriverdi](https://github.com/mervetv) | [Babak Mehrabipour](https://github.com/babakmehrabipour) 
+
  _Decider: [Bouchra Allachi](https://github.com/Bouchra-Allachi)_ \
  _Documentory: [Ayse Erdur](https://github.com/Ayse-Erdur)_ \
  _Scribbels: [Merve Tanriverdi](https://github.com/mervetv)_, _[Linnéa Doberstein](https://github.com/Moosgloeckchen)_ \
