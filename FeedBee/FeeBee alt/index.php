@@ -11,8 +11,9 @@ session_start();
 		<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
 
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	
+        
 		<link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
     
               <!-- Optionales JavaScript -->
         <!-- jQuery, dann Popper.js, dann Bootstrap JS -->
@@ -40,7 +41,7 @@ session_start();
 	            			<?php
 						if(isset($_SESSION['email'])) {
 							echo('<li class="nav-item dropdown ">
-							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="profil.php" role="button" aria-haspopup="true" aria-expanded="false"><img src="img/profil.png" alt="" style="height: 26px;width: 26px;">Profil</a>
+							<a class="nav-link dropdown-toggle" href="profil.php" src="img/profil.png" role="button" aria-haspopup="true" aria-expanded="false"><img src="img/profil.png" alt="" style="height: 26px;width: 26px;">Profil</a>
 							<div class="dropdown-menu">
 							<a class="dropdown-item" href="profil.php"><img src="img/profil.png" alt="" style="height: 20px;width: 20px;"> Profil</a>
 							<a class="dropdown-item" href="logout.php"><img src="img/logout.png" alt="" style="height: 20px;width: 20px;"> Abmelden</a>

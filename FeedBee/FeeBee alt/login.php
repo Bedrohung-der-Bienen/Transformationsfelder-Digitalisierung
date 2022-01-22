@@ -8,7 +8,7 @@ if($_POST){
 			
 	if($row = mysqli_fetch_array($resultat)){
 		$_SESSION['email'] =$_POST['email'];
-		header("Location: pflanzenkatalog.php");
+		header("Location: Pflanzenkatalog.php");
 	}else{
 		echo "<p class='alert alert-danger' role='alert'>E-Mail oder Passwort sind falsch</p>";
 	}
