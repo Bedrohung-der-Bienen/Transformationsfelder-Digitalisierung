@@ -51,9 +51,9 @@ if(isset($_SESSION['email'])) {
 	            		<?php
 						if(isset($_SESSION['email'])) {
 							echo('<li class="nav-item dropdown ">
-							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="profil.php" role="button" aria-haspopup="true" aria-expanded="false"><img src="img/profil.png" alt="" style="height: 26px;width: 26px;">Profil</a>
+							<a class="nav-link dropdown-toggle"  href="profil.php" role="button" aria-haspopup="true" aria-expanded="false"><img src="img/profil.png" alt="" style="height: 26px;width: 26px;">Profil</a>
 							<div class="dropdown-menu">
-							<a class="dropdown-item" href="profil.php"><img src="img/profil.png" alt="" style="height: 20px;width: 20px;"> Profil</a>
+							<a class="dropdown-item" href="updateProfil.php"><img src="img/settings.png" alt="" style="height: 20px;width: 20px;"> Bearbeiten</a>
 							<a class="dropdown-item" href="logout.php"><img src="img/logout.png" alt="" style="height: 20px;width: 20px;"> Abmelden</a>
 							</li>');
 							}else{

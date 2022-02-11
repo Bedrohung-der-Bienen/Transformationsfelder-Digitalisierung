@@ -65,9 +65,9 @@ if($resultat = mysqli_query($link,$query)){
 	            			<?php
 						if(isset($_SESSION['email'])) {
 							echo('<li class="nav-item dropdown ">
-							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="profil.php" role="button" aria-haspopup="true" aria-expanded="false"><img src="img/profil.png" alt="" style="height: 26px;width: 26px;">Profil</a>
+							<a class="nav-link dropdown-toggle" href="profil.php" role="button" aria-haspopup="true" aria-expanded="false"><img src="img/profil.png" alt="" style="height: 26px;width: 26px;">Profil</a>
 							<div class="dropdown-menu">
-							<a class="dropdown-item" href="profil.php"><img src="img/profil.png" alt="" style="height: 20px;width: 20px;"> Profil</a>
+							<a class="dropdown-item" href="updateProfil.php"><img src="img/settings.png" alt="" style="height: 20px;width: 20px;"> Bearbeiten</a>
 							<a class="dropdown-item" href="logout.php"><img src="img/logout.png" alt="" style="height: 20px;width: 20px;"> Abmelden</a>
 							</li>');
 							}else{
@@ -84,6 +84,15 @@ if($resultat = mysqli_query($link,$query)){
 
     <!-- Inhalt -->  
     <div class="container">
+    <p class="mt-4">In diesem Katalog sind Pflanzenarten zusammengestellt, die als Futterpflanzen für Honigbienen und Wildbienen geeignet sind.
+    Diese Pflanzen werden auch Trachtpflanzen genannt.
+    Die Pflanzenlisten geben Hinweise darauf, welche Pflanzenarten für bestimmte Zielgruppen genutzt werden können. Die zum Teil sehr
+    umfangreichen Listen lassen Spielraum für eigene Zusammenstellungen von Pflanzenarten nach z.B. Blütezeit oder Standortbedingungen.
+    Die Listen umfassen u. a. Pflanzenarten, die sowohl gärtnerischen Zwecken als auch der Ernährung der Bienen dienen. Nicht aufgeführt
+    sind Sorten, von denen häufig eine Vielzahl im Handel erhältlich ist.
+    Die Pflanzenarten können nach verschiedenen Kriterien gesucht werden: z.B. deutscher Name, wissenschaftlicher Name, Lebensformen,
+    Blütezeit, Blütenfarbe, Biotoptyp oder Zielgruppen. Auch können Listen mit wissenschaftlichen Namen alphabetisch angezeigt werden.</p> 
+    Weitere Infos unter: <a href="http://144.41.33.58/4DACTION/W_Init/BWPKBW_3_1_de.shtml">Infos</a>
         <form class="mt-5 mb-1" method="post">
             <div class="form-row">
                 <div class="form-group col-md-6">
@@ -98,9 +107,9 @@ if($resultat = mysqli_query($link,$query)){
             <button type="submit" name="fruehling" id="fruehling" class="btn btn-sm btn-outline-secondary">Frühling</button>
             <button type="submit" name="sommer" id="sommer" class="btn btn-sm btn-outline-secondary">Sommer</button>
             <button type="submit" name="herbst" id="herbst" class="btn btn-sm btn-outline-secondary">Herbst</button>
-<button type="submit" name="winter" id="winter" class="btn btn-sm btn-outline-secondary">Winter</button>
+            <button type="submit" name="winter" id="winter" class="btn btn-sm btn-outline-secondary">Winter</button>
         </div>
-</form>
+        </form>
 <?php
 		while($row = mysqli_fetch_array($resultat)){
 			
@@ -122,25 +131,26 @@ if($resultat = mysqli_query($link,$query)){
                                     <div class="row">
                                         <div class="col-3">
                                             <div class="mt-3">
-                                                <img src="img/gießkanne.png" style="height: 30px; width: 30px;"/>
+                                                <img src="img/gießkanne.png" style="height: 30px; width: 30px;" data-toggle="tooltip" data-placement="top" title="Gießvorgang"/>
                                                 <p class="mb-0 text-muted"><?php print_r($row[8]);?></p>
                                             </div>
                                         </div>
                                         <div class="col-3">
                                             <div class="mt-3">
-                                                <img src="img/sonne.png" style="height: 30px; width: 30px;"/>
+                                                 <!--eventuell Lichtverhältnisse -->  
+                                                <img src="img/sonne.png" style="height: 30px; width: 30px;" data-toggle="tooltip" data-placement="top" title="bevorzugter Standort"/>
                                                 <p class="mb-0 text-muted"><?php print_r($row[9]);?></p>
                                             </div>
                                         </div>
                                         <div class="col-3">
                                             <div class="mt-3">
-                                                <img src="img/bese.png" style="height: 30px; width: 30px;"/>
+                                                <img src="img/pflege.png" style="height: 30px; width: 30px;" data-toggle="tooltip" data-placement="top" title="Pflege"/>
                                                 <p class="mb-0 text-muted"><?php print_r($row[12]);?></p>
                                             </div>
                                         </div>
                                         <div class="col-3">
                                             <div class="mt-3">
-                                                <img src="img/kalender.png" style="height: 30px; width: 30px;"/>
+                                                <img src="img/seeding.png" style="height: 30px; width: 30px;" data-toggle="tooltip" data-placement="top" title="Zeit zum einseän"/>
                                                 <p class="mb-0 text-muted"><?php print_r($row[2]);?></p>
                                             </div>
                                         </div>

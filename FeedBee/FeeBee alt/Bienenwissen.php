@@ -44,9 +44,9 @@ include("connection.php");
 						<?php
 						if(isset($_SESSION['email'])) {
 							echo('<li class="nav-item dropdown ">
-							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="profil.php" role="button" aria-haspopup="true" aria-expanded="false"><img src="img/profil.png" alt="" style="height: 26px;width: 26px;">Profil</a>
+							<a class="nav-link dropdown-toggle" href="profil.php" role="button" aria-haspopup="true" aria-expanded="false"><img src="img/profil.png" alt="" style="height: 26px;width: 26px;">Profil</a>
 							<div class="dropdown-menu">
-							<a class="dropdown-item" href="profil.php"><img src="img/profil.png" alt="" style="height: 20px;width: 20px;"> Profil</a>
+							<a class="dropdown-item" href="updateProfil.php"><img src="img/settings.png" alt="" style="height: 20px;width: 20px;"> Bearbeiten</a>
 							<a class="dropdown-item" href="logout.php"><img src="img/logout.png" alt="" style="height: 20px;width: 20px;"> Abmelden</a>
 							</li>');
 							}else{
@@ -63,6 +63,23 @@ include("connection.php");
      <!-- Schutz der Bienen & Bedrohung -->
         <div class="jumbotron-fluid align-items-center" id="header">
             <div class="container">
+
+                <h1 class="display-5 text-center mt-5 mb-3">Bedrohung der Bienen</h1>
+                    <p>Bienen werden durch viele Faktoren bedroht. Zum einen dadurch, dass die industrielle Landwirtschaft Pestizide
+                        einsetzt und zum anderen durch die Zerstörung wichtiger Lebensräume. Flächen werden versiegelt durch Straßen, Gewerbe und Wohnbebauung. 
+                        Auch Monokulturen stellen eine Bedrohung dar, also große Felder, die nur eine Pflanzensorte besitzen. Wildbienen haben einen geringeren 
+                        Nachwuchs, weil keine Pollen und Nektar zu Verfügung stehen. Um genug Nahrung für einen einzigen Nachwuchs zu erhalten, muss ein 
+                        Wildbienenweibchen 100 Blüten besuchen. Außerdem spielt der Klimawandel eine Bedeutung und verwirrt die Bienen. Milde Winter führen zu 
+                        frühzeitigem Schlüpfen und dieses Überleben nur wenige. Auch Schädlinge wie die Varroa-Milbe, welche sich vom Blut der Bienen ernähren, 
+                        stellen eine Bedrohung dar.</p>
+                        Mehr dazu unter:<a href="https://www.wwf.de/themen-projekte/bedrohte-tier-und-pflanzenarten/wildbienen-stark-gefaehrdet"> WWF Deutschland 2022 (World Wide Fund For Nature)</a><br>
+    
+                        <div class="row mt-5 mb-1">
+                            <div class="col">
+                                 <img src="img/Bedrohung.png" class="img-fluid img-feature img-thumbnail mx-auto d-block mb-4 box-shadow" alt="feature-photo">
+                            </div>   
+                        </div>
+
                 <h1 class="display-5 text-center mt-5 mb-3">Schutz der Bienen</h1>
                 <p>Der Schutz und der Erhalt von Artenvielfalt und Biodiversität sind zentrale Zukunftsaufgaben. 
                     Wildbienen sind für fast alle Ökosysteme unersetzlich. Denn sie tragen einen unverzichtbaren Beitrag für den Erhalt der biologischen Vielfalt. 
@@ -72,7 +89,8 @@ include("connection.php");
                     Nistmöglichkeiten sowie Material für den Nestbau. Zusätzlich ein ausreichendes Blütenangebot. Durch das Schwinden des Lebensraums 
                     und Nahrung sind diese wie auch weitere Insekten vom Aussterben bedroht. Das Bundesministerium für Ernährung und Landwirtschaft (BMEL) 
                     setzt sich deshalb für deren Schutz ein. Denn das Bienensterben führt zum Verlust der Artenvielfalt.</p>
-                    Mehr dazu unter :<a href="https://www.bmel.de/DE/themen/tiere/nutztiere/bienen">https://www.bmel.de/DE/themen/tiere/nutztiere/bienen</a> <br>
+                    Mehr dazu unter: <br><a href="https://www.bmel.de/DE/themen/landwirtschaft/artenvielfalt/insekten-biologische-vielfalt.html"> BMEL (Bundesministerium für Ernährung & Landwirtschaft)</a><br>
+                    <a href="https://www.bienenfuettern.de"> BMEL - Jetzt Bienen füttern!</a> 
 
                     <div class="row mt-5 mb-1">
                         <div class="col">
@@ -80,21 +98,7 @@ include("connection.php");
                         </div>   
                     </div>
 
-                    <h1 class="display-5 text-center mt-5 mb-3">Bedrohung</h1>
-                    <p>Bienen werden durch viele Faktoren bedroht. Zum einen dadurch, dass die industrielle Landwirtschaft Pestizide
-                        einsetzt und zum anderen durch die Zerstörung wichtiger Lebensräume. Flächen werden versiegelt durch Straßen, Gewerbe und Wohnbebauung. 
-                        Auch Monokulturen stellen eine Bedrohung dar, also große Felder, die nur eine Pflanzensorte besitzen. Wildbienen haben einen geringeren 
-                        Nachwuchs, weil keine Pollen und Nektar zu Verfügung stehen. Um genug Nahrung für einen einzigen Nachwuchs zu erhalten, muss ein 
-                        Wildbienenweibchen 100 Blüten besuchen. Außerdem spielt der Klimawandel eine Bedeutung und verwirrt die Bienen. Milde Winter führen zu 
-                        frühzeitigem Schlüpfen und dieses Überleben nur wenige. Auch Schädlinge wie die Varroa-Milbe, welche sich vom Blut der Bienen ernähren, 
-                        stellen eine Bedrohung dar.</p>
-                        Mehr dazu unter :<a href="https://www.deutschland-summt.de/gefaehrdung.html">https://www.deutschland-summt.de/gefaehrdung.html</a> <br>
-    
-                        <div class="row mt-5 mb-1">
-                            <div class="col">
-                                 <img src="img/Bedrohung.png" class="img-fluid img-feature img-thumbnail mx-auto d-block mb-4 box-shadow" alt="feature-photo">
-                            </div>   
-                        </div>
+                   
             </div>
         </div> <!-- Ende Schutz der Bienen & Bedrohung -->
 
@@ -108,25 +112,25 @@ include("connection.php");
                         <img src="img/h1.jpg" class="img-fluid img-feature img-thumbnail mx-auto d-block mb-4 box-shadow" alt="feature-photo">
                         <h4 class="mb-3">Nahrung</h4>
                         <p class="mb-3">Nahrung für die Bienen zur Verfügung stellen.</p>
-                        <a href="#" class="btn btn-outline-primary mb-5">Zur Pflanzenkatalog</a>
+                        <a href="Pflanzenkatalog.php" class="btn btn-outline-primary mb-5">Zur Pflanzenkatalog</a>
                     </div>
                     <div class="col-sm-3">
                         <img src="img/h2.jpg" class="img-fluid img-feature img-thumbnail mx-auto d-block mb-4 box-shadow" alt="feature-edit">
                         <h4 class="mb-3">Nistmöglichkeiten</h4>
                         <p class="mb-3">Nistmöglichkeiten zur Verfügung stellen.</p>
-                        <a href="#" class="btn btn-outline-primary mb-5">zur Anleitung</a>
+                        <a href="https://www.nabu.de/tiere-und-pflanzen/voegel/helfen/nistkaesten/index.html" class="btn btn-outline-primary mb-5">zur Anleitung</a>
                     </div>
                     <div class="col-sm-3">
                         <img src="img/h3.jpg" class="img-fluid img-feature img-thumbnail mx-auto d-block mb-4 box-shadow" alt="feature-cloud">
                         <h4 class="mb-3">Pestizide</h4>
                         <p class="mb-3">Kann auf Pestizide verzichtet werden!</p>
-                        <a href="#" class="btn btn-outline-primary mb-5">Alternativen</a>
+                        <a href="https://www.bund.net/umweltgifte/pestizide/bienen-und-pestizide/" class="btn btn-outline-primary mb-5">Alternativen</a>
                     </div>
                     <div class="col-sm-3">
                         <img src="img/h4.jpg" class="img-fluid img-feature img-thumbnail mx-auto d-block mb-4 box-shadow" alt="feature-share">
                         <h4 class="mb-3">Bienenkrankheiten</h4>
-                        <p class="mb-3">Bienenkrankheiten vermeiden.</p>
-                        <a href="#" class="btn btn-outline-primary mb-5">zur Info</a>
+                        <p class="mb-3">Bienenkrankheiten vermeiden.</p><br>
+                        <a href="https://www.bee-info.de/bienen-krankheiten/bienenkrankheiten.html" class="btn btn-outline-primary mb-5">zur Info</a>
                     </div>
                 </div>
             </div> <!-- Ende Container -->
@@ -142,7 +146,7 @@ include("connection.php");
                             parasitischen Bienen versorgen keine eigenen Nester, sondern legen ihre Eier in die Brutzellen nestbauender Arten und 
                             heißen daher auch »Kuckucksbienen«. Bienennester findet man von Art zu Art verschieden – u.a. in abgestorbenem Holz, 
                             in dürren Pflanzenstengeln, in leeren Schneckenhäusern oder an Felsen. Fast drei Viertel der Arten nisten in der Erde.</p>
-                            Mehr dazu unter :<a href="https://www.wildbienen.info/einfuehrung/einsiedler-staatenbildner.php">https://www.wildbienen.info/einfuehrung/einsiedler-staatenbildner.php</a> <br>
+                            Mehr dazu unter :<a href="https://www.wildbienen.info/einfuehrung/einsiedler-staatenbildner.php"> Infos</a> <br>
         
                             <div class="row mt-5 mb-1">
                                 <div class="col">

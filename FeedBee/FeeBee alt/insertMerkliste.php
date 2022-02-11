@@ -12,7 +12,7 @@ if(isset($idpflanze) && isset($_SESSION['email'])){
 		if(mysqli_query($link,$query2)){
 			echo "<p class='alert alert-success' role='alert'><b>Erfolgreich</b> Die Pflanze wurde in ihre Liste eingefügt";
 			//sleep(3);
-			HEADER("LOCATION: merkliste.php");
+			HEADER("LOCATION: Pflanzenkatalog.php");
 		}else{
 			//muss eigentlich Überprüft werden ob die Pflanze existiert weil wenn er hier rein springt ist es entweder pflanze ist in liste oder pflanze wurde nicht eingefügt in datenbank!
 			echo '<script language="javascript">';
